@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{ background:#faf9f6; color:#1a1a17; font-family:'Hanken Grotesk',system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
+  ::selection{ background:#cdeee2; }
+  input{ font-family:inherit; }
+  a{ color:inherit; }
+  @keyframes rise{ from{ opacity:0; transform:translateY(14px); } to{ opacity:1; transform:translateY(0); } }
+  @keyframes floaty{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-9px); } }
+</style>
+</helmet>
+
+<div style="min-height:100vh; overflow-x:hidden;">
+
+  <!-- NAV -->
+  <header style="position:sticky; top:0; z-index:50; background:rgba(250,249,246,0.82); backdrop-filter:blur(12px); border-bottom:1px solid #ece9e2;">
+    <nav style="max-width:1140px; margin:0 auto; padding:15px 28px; display:flex; align-items:center; justify-content:space-between; gap:24px;">
+      <div style="display:flex; align-items:center; gap:11px;">
+        <div style="width:32px; height:32px; border-radius:9px; background:#18b08a; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 12px rgba(24,176,138,0.32);">
+          <span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:18px; color:#04130d; line-height:1;">N</span>
+        </div>
+        <span style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:19px; letter-spacing:-0.02em;">Noemo</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:30px;">
+        <nav style="display:flex; gap:30px;">
+          <a href="#features" style="color:#55544d; text-decoration:none; font-size:15px; font-weight:500;">Features</a>
+          <a href="#roadmap" style="color:#55544d; text-decoration:none; font-size:15px; font-weight:500;">Roadmap</a>
+        </nav>
+        <a href="#join" style="background:#13110d; color:#fff; text-decoration:none; font-size:14.5px; font-weight:600; padding:9px 17px; border-radius:9px;">Join the waitlist</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section style="max-width:1140px; margin:0 auto; padding:74px 28px 36px; display:grid; grid-template-columns:1.02fr 0.98fr; gap:54px; align-items:center;">
+    <div>
+      <div style="display:inline-flex; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.13em; text-transform:uppercase; color:#0c5a45; background:#e9f9f3; border:1px solid #cdeee2; padding:6px 11px; border-radius:100px; margin-bottom:24px;">
+        <span style="width:6px; height:6px; border-radius:50%; background:#18b08a; display:inline-block;"></span>
+        AI trading assistant &amp; journal
+      </div>
+      <h1 style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:57px; line-height:1.02; letter-spacing:-0.035em; margin:0 0 22px;">Trade with a<br>second brain.</h1>
+      <p style="font-size:18.5px; line-height:1.55; color:#56554e; margin:0 0 32px; max-width:470px;">Noemo journals every trade, summarizes the news moving your watchlist, and explains <em style="font-style:italic; color:#1a1a17;">why</em> conditions look favorable — so you decide with a clear head, not a hunch.</p>
+
+      <div style="max-width:440px;">
+        <sc-if value="{{ heroNotJoined }}" hint-placeholder-val="{{ true }}">
+          <div>
+            <div style="display:flex; gap:9px;">
+              <input type="email" value="{{ heroEmail }}" onInput="{{ onHeroEmail }}" placeholder="you@email.com" style="flex:1; min-width:0; border:1px solid #ddd9cf; background:#fff; border-radius:11px; padding:13px 15px; font-size:15.5px; color:#1a1a17; outline:none;" />
+              <button onClick="{{ joinHero }}" style="flex:none; background:#18b08a; color:#04130d; border:none; border-radius:11px; padding:0 22px; font-size:15.5px; font-weight:700; cursor:pointer; box-shadow:0 6px 16px rgba(24,176,138,0.28);">Join</button>
+            </div>
+            <sc-if value="{{ heroErr }}">
+              <div style="color:#c0392b; font-size:13.5px; margin-top:9px; font-weight:500;">{{ heroErr }}</div>
+            </sc-if>
+            <div style="display:flex; align-items:center; gap:7px; margin-top:14px; color:#84827a; font-size:13.5px;">
+              <span style="font-family:'JetBrains Mono',monospace; color:#0c5a45; font-weight:500;">{{ countLabel }}</span>
+              traders on the waitlist · no spam, just launch news
+            </div>
+          </div>
+        </sc-if>
+        <sc-if value="{{ heroJoined }}">
+          <div style="display:flex; align-items:center; gap:13px; background:#e9f9f3; border:1px solid #cdeee2; border-radius:13px; padding:16px 18px;">
+            <div style="width:34px; height:34px; border-radius:50%; background:#18b08a; color:#04130d; display:flex; align-items:center; justify-content:center; font-weight:800; flex:none;">✓</div>
+            <div>
+              <div style="font-weight:700; font-size:15.5px;">You're on the list.</div>
+              <div style="color:#56554e; font-size:14px;">We'll email {{ heroEmail }} the moment Noemo opens up.</div>
+            </div>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+
+    <!-- app preview card -->
+    <div style="position:relative;">
+      <div style="position:absolute; inset:6% -4% -8% 8%; background:radial-gradient(60% 60% at 60% 40%, rgba(24,176,138,0.16), transparent 70%); filter:blur(10px);"></div>
+      <div style="position:relative; background:#fff; border:1px solid #e7e4dc; border-radius:18px; box-shadow:0 30px 60px -30px rgba(40,40,30,0.4); overflow:hidden; animation:floaty 7s ease-in-out infinite;">
+        <div style="display:flex; align-items:center; gap:7px; padding:13px 16px; border-bottom:1px solid #f0ede5;">
+          <span style="width:9px; height:9px; border-radius:50%; background:#e6e2d8;"></span>
+          <span style="width:9px; height:9px; border-radius:50%; background:#e6e2d8;"></span>
+          <span style="width:9px; height:9px; border-radius:50%; background:#e6e2d8;"></span>
+          <span style="margin-left:8px; font-family:'JetBrains Mono',monospace; font-size:11.5px; color:#a3a097;">noemo · journal</span>
+        </div>
+        <div style="padding:20px;">
+          <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:16px;">
+            <span style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:16px;">This month</span>
+            <span style="font-family:'JetBrains Mono',monospace; font-size:11px; color:#9a988f;">32 trades</span>
+          </div>
+          <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; margin-bottom:16px;">
+            <div style="background:#faf9f6; border:1px solid #f0ede5; border-radius:11px; padding:13px 10px; text-align:center;"><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:23px;">58%</div><div style="font-size:11px; color:#84827a; margin-top:2px;">Win rate</div></div>
+            <div style="background:#faf9f6; border:1px solid #f0ede5; border-radius:11px; padding:13px 10px; text-align:center;"><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:23px;">1.9</div><div style="font-size:11px; color:#84827a; margin-top:2px;">Avg R:R</div></div>
+            <div style="background:#eafaf4; border:1px solid #cdeee2; border-radius:11px; padding:13px 10px; text-align:center;"><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:23px; color:#0c8a68;">+0.4R</div><div style="font-size:11px; color:#5a8a78; margin-top:2px;">Expectancy</div></div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:14px;">
+            <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border:1px solid #f0ede5; border-radius:10px; padding:10px 12px;">
+              <div style="display:flex; align-items:center; gap:10px;"><span style="font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:500; color:#37362f; background:#f3f1ea; padding:3px 7px; border-radius:5px;">AAPL</span><span style="font-size:13px; color:#84827a;">Long · 200</span></div>
+              <span style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13.5px; color:#0c8a68;">+1.8R</span>
+            </div>
+            <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border:1px solid #f0ede5; border-radius:10px; padding:10px 12px;">
+              <div style="display:flex; align-items:center; gap:10px;"><span style="font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:500; color:#37362f; background:#f3f1ea; padding:3px 7px; border-radius:5px;">TSLA</span><span style="font-size:13px; color:#84827a;">Short · 50</span></div>
+              <span style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13.5px; color:#b8392b;">−0.7R</span>
+            </div>
+          </div>
+          <div style="display:flex; gap:10px; background:#fffaf0; border:1px solid #f0d9a8; border-radius:11px; padding:12px 13px;">
+            <span style="width:7px; height:7px; border-radius:50%; background:#e0a93b; margin-top:5px; flex:none;"></span>
+            <div style="font-size:13px; color:#6b5a2e; line-height:1.45;">You lose most often when trading <strong>after 3pm</strong> — win rate drops to 34%.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <sc-if value="{{ showTrustStrip }}" hint-placeholder-val="{{ true }}">
+  <div style="max-width:1140px; margin:0 auto; padding:22px 28px 8px;">
+    <div style="display:flex; flex-wrap:wrap; gap:24px 38px; align-items:center; color:#9a988f; font-size:13.5px; font-family:'JetBrains Mono',monospace; letter-spacing:0.02em; border-top:1px solid #ece9e2; padding-top:26px;">
+      <span style="color:#56554e;">For traders who want to improve, not gamble.</span>
+      <span>· Decision support, not an oracle</span>
+      <span>· Every signal shows its reasoning</span>
+      <span>· Not financial advice</span>
+    </div>
+  </div>
+  </sc-if>
+
+  <!-- FEATURES -->
+  <section id="features" style="max-width:1140px; margin:0 auto; padding:60px 28px 70px;">
+    <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:34px; flex-wrap:wrap;">
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#0c5a45; margin-bottom:12px;">Core features</div>
+        <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:38px; letter-spacing:-0.03em; margin:0; line-height:1.05;">Four tools, one clear head.</h2>
+      </div>
+      <p style="color:#56554e; font-size:16px; max-width:340px; margin:0;">Journaling, analytics and news are the defensible core. Timing and risk layer on top — always showing their work.</p>
+    </div>
+
+    <div style="display:grid; grid-template-columns:300px 1fr; gap:22px; align-items:start;">
+      <!-- left list -->
+      <div style="display:flex; flex-direction:column; gap:8px;">
+        <div onClick="{{ setJournal }}" style="{{ journalItemStyle }}">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <div style="width:30px; height:30px; border-radius:8px; background:#e9f9f3; color:#0c5a45; display:flex; align-items:center; justify-content:center; font-weight:700; font-family:'Space Grotesk',sans-serif; font-size:13px; flex:none;">01</div>
+            <div>
+              <div style="font-weight:600; font-size:15.5px;">Trade Journal &amp; Analytics</div>
+              <div style="font-size:13px; color:#84827a;">Log trades. See your patterns.</div>
+            </div>
+          </div>
+        </div>
+        <div onClick="{{ setNews }}" style="{{ newsItemStyle }}">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <div style="width:30px; height:30px; border-radius:8px; background:#e9f9f3; color:#0c5a45; display:flex; align-items:center; justify-content:center; font-weight:700; font-family:'Space Grotesk',sans-serif; font-size:13px; flex:none;">02</div>
+            <div>
+              <div style="font-weight:600; font-size:15.5px;">Live News &amp; Alerts</div>
+              <div style="font-size:13px; color:#84827a;">The news that matters, summarized.</div>
+            </div>
+          </div>
+        </div>
+        <div onClick="{{ setFund }}" style="{{ fundItemStyle }}">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <div style="width:30px; height:30px; border-radius:8px; background:#e9f9f3; color:#0c5a45; display:flex; align-items:center; justify-content:center; font-weight:700; font-family:'Space Grotesk',sans-serif; font-size:13px; flex:none;">03</div>
+            <div>
+              <div style="font-weight:600; font-size:15.5px;">Fundamental Analysis</div>
+              <div style="font-size:13px; color:#84827a;">Dense filings, plain language.</div>
+            </div>
+          </div>
+        </div>
+        <div onClick="{{ setTiming }}" style="{{ timingItemStyle }}">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <div style="width:30px; height:30px; border-radius:8px; background:#e9f9f3; color:#0c5a45; display:flex; align-items:center; justify-content:center; font-weight:700; font-family:'Space Grotesk',sans-serif; font-size:13px; flex:none;">04</div>
+            <div>
+              <div style="font-weight:600; font-size:15.5px;">Timing &amp; Risk</div>
+              <div style="font-size:13px; color:#84827a;">Reasoning, never commands.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- right detail -->
+      <div style="background:#fff; border:1px solid #ece9e2; border-radius:18px; padding:30px 32px; min-height:392px; box-shadow:0 16px 40px -28px rgba(40,40,30,0.3);">
+
+        <sc-if value="{{ isJournal }}" hint-placeholder-val="{{ true }}">
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:center;">
+            <div>
+              <h3 style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:25px; letter-spacing:-0.02em; margin:0 0 12px;">Log every trade. See your patterns.</h3>
+              <p style="color:#56554e; font-size:15.5px; line-height:1.6; margin:0 0 18px;">Record entry, exit, size, rationale and emotional state. Noemo computes your real edge — win rate, risk:reward, expectancy — and surfaces the behavior behind your losses.</p>
+              <div style="display:flex; flex-direction:column; gap:9px;">
+                <div style="display:flex; gap:9px; align-items:center; font-size:14.5px; color:#37362f;"><span style="color:#18b08a; font-weight:800;">→</span> Behavioral pattern detection</div>
+                <div style="display:flex; gap:9px; align-items:center; font-size:14.5px; color:#37362f;"><span style="color:#18b08a; font-weight:800;">→</span> Review past reasoning vs. outcomes</div>
+              </div>
+            </div>
+            <div style="background:#faf9f6; border:1px solid #ece9e2; border-radius:14px; padding:18px;">
+              <div style="display:flex; justify-content:space-between; font-family:'JetBrains Mono',monospace; font-size:11px; color:#9a988f; text-transform:uppercase; letter-spacing:0.1em; margin-bottom:14px;"><span>This month</span><span>32 trades</span></div>
+              <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; margin-bottom:16px;">
+                <div style="text-align:center;"><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:22px;">58%</div><div style="font-size:11px; color:#84827a;">Win rate</div></div>
+                <div style="text-align:center;"><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:22px;">1.9</div><div style="font-size:11px; color:#84827a;">Avg R:R</div></div>
+                <div style="text-align:center;"><div style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:22px; color:#0c8a68;">+0.4R</div><div style="font-size:11px; color:#84827a;">Expectancy</div></div>
+              </div>
+              <div style="display:flex; gap:10px; background:#fff; border:1px solid #f0d9a8; border-radius:10px; padding:11px 12px;">
+                <span style="width:7px; height:7px; border-radius:50%; background:#e0a93b; margin-top:5px; flex:none;"></span>
+                <div style="font-size:13px; color:#6b5a2e; line-height:1.45;">You lose most often when trading <strong>after 3pm</strong>. Win rate drops to 34%.</div>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ isNews }}">
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:center;">
+            <div>
+              <h3 style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:25px; letter-spacing:-0.02em; margin:0 0 12px;">The news that matters, summarized.</h3>
+              <p style="color:#56554e; font-size:15.5px; line-height:1.6; margin:0 0 18px;">Noemo watches the feeds for the instruments on your watchlist, condenses each headline into a plain-language read, and pushes breaking alerts the second they land.</p>
+              <div style="display:flex; flex-direction:column; gap:9px;">
+                <div style="display:flex; gap:9px; align-items:center; font-size:14.5px; color:#37362f;"><span style="color:#18b08a; font-weight:800;">→</span> Push, email or Telegram alerts</div>
+                <div style="display:flex; gap:9px; align-items:center; font-size:14.5px; color:#37362f;"><span style="color:#18b08a; font-weight:800;">→</span> Watchlist-scoped, no noise</div>
+              </div>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:10px;">
+              <div style="background:#fff; border:1px solid #f3c9c2; border-radius:12px; padding:13px 14px;">
+                <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;"><span style="font-family:'JetBrains Mono',monospace; font-size:10px; background:#fbe7e3; color:#b8392b; padding:2px 6px; border-radius:5px; letter-spacing:0.08em;">BREAKING</span><span style="font-size:11.5px; color:#9a988f;">NVDA · 2m ago</span></div>
+                <div style="font-size:14px; font-weight:600; line-height:1.35;">Nvidia guides revenue above estimates for Q4.</div>
+                <div style="font-size:12.5px; color:#84827a; margin-top:5px;">Data-center demand cited; shares up 4% after hours.</div>
+              </div>
+              <div style="background:#faf9f6; border:1px solid #ece9e2; border-radius:12px; padding:13px 14px;">
+                <div style="font-size:11.5px; color:#9a988f; margin-bottom:5px;">AAPL · 41m ago</div>
+                <div style="font-size:14px; font-weight:600; line-height:1.35;">Supplier hints at delayed component shipments.</div>
+                <div style="font-size:12.5px; color:#84827a; margin-top:5px;">Minor near-term risk; watch margins next print.</div>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ isFund }}">
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:center;">
+            <div>
+              <h3 style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:25px; letter-spacing:-0.02em; margin:0 0 12px;">Dense filings, plain language.</h3>
+              <p style="color:#56554e; font-size:15.5px; line-height:1.6; margin:0 0 18px;">Earnings, statements and filings, digested into a narrative you can read in thirty seconds — with the notable changes flagged so nothing slips past you.</p>
+              <div style="display:flex; flex-direction:column; gap:9px;">
+                <div style="display:flex; gap:9px; align-items:center; font-size:14.5px; color:#37362f;"><span style="color:#18b08a; font-weight:800;">→</span> Revenue, debt &amp; guidance change flags</div>
+                <div style="display:flex; gap:9px; align-items:center; font-size:14.5px; color:#37362f;"><span style="color:#18b08a; font-weight:800;">→</span> Sourced and auditable</div>
+              </div>
+            </div>
+            <div style="background:#faf9f6; border:1px solid #ece9e2; border-radius:14px; padding:18px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;"><span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:15px;">AAPL · Q3</span><span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#0c5a45; background:#e9f9f3; padding:3px 7px; border-radius:5px;">SUMMARY</span></div>
+              <p style="font-size:13px; color:#56554e; line-height:1.55; margin:0 0 14px;">Solid quarter: services hit a record and margins held. Hardware softened but guidance ticked up on a stronger holiday outlook.</p>
+              <div style="display:flex; flex-direction:column; gap:7px;">
+                <div style="display:flex; justify-content:space-between; font-size:13px; padding:7px 10px; background:#fff; border:1px solid #ece9e2; border-radius:8px;"><span style="color:#56554e;">Revenue</span><span style="color:#0c8a68; font-weight:600;">▲ 8% YoY</span></div>
+                <div style="display:flex; justify-content:space-between; font-size:13px; padding:7px 10px; background:#fff; border:1px solid #ece9e2; border-radius:8px;"><span style="color:#56554e;">Guidance</span><span style="color:#0c8a68; font-weight:600;">Raised</span></div>
+                <div style="display:flex; justify-content:space-between; font-size:13px; padding:7px 10px; background:#fff; border:1px solid #ece9e2; border-radius:8px;"><span style="color:#56554e;">Net debt</span><span style="color:#b8392b; font-weight:600;">▼ 3%</span></div>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ isTiming }}">
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:center;">
+            <div>
+              <h3 style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:25px; letter-spacing:-0.02em; margin:0 0 12px;">Reasoning, never commands.</h3>
+              <p style="color:#56554e; font-size:15.5px; line-height:1.6; margin:0 0 18px;">Noemo blends technicals, sentiment and fundamentals into a conditions read — with the confidence stated plainly and a position size that respects your risk. It never tells you to buy.</p>
+              <div style="display:flex; flex-direction:column; gap:9px;">
+                <div style="display:flex; gap:9px; align-items:center; font-size:14.5px; color:#37362f;"><span style="color:#18b08a; font-weight:800;">→</span> Explicit confidence, never certainty</div>
+                <div style="display:flex; gap:9px; align-items:center; font-size:14.5px; color:#37362f;"><span style="color:#18b08a; font-weight:800;">→</span> Position sizing &amp; stop suggestions</div>
+              </div>
+            </div>
+            <div style="background:#faf9f6; border:1px solid #ece9e2; border-radius:14px; padding:18px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;"><span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:15px;">Conditions · NVDA</span><span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#0c5a45;">MODERATE</span></div>
+              <div style="display:flex; gap:5px; margin-bottom:14px;">
+                <div style="flex:1; height:6px; border-radius:3px; background:#18b08a;"></div>
+                <div style="flex:1; height:6px; border-radius:3px; background:#18b08a;"></div>
+                <div style="flex:1; height:6px; border-radius:3px; background:#18b08a;"></div>
+                <div style="flex:1; height:6px; border-radius:3px; background:#e3e0d7;"></div>
+                <div style="flex:1; height:6px; border-radius:3px; background:#e3e0d7;"></div>
+              </div>
+              <p style="font-size:13px; color:#56554e; line-height:1.55; margin:0 0 14px;">Momentum and volume are aligned — but earnings land in 2 days (elevated risk). Size accordingly.</p>
+              <div style="background:#fff; border:1px solid #ece9e2; border-radius:10px; padding:11px 12px;">
+                <div style="display:flex; justify-content:space-between; font-size:13px; margin-bottom:6px;"><span style="color:#84827a;">Suggested size</span><span style="font-weight:600;">1.2% of account</span></div>
+                <div style="display:flex; justify-content:space-between; font-size:13px;"><span style="color:#84827a;">Stop loss</span><span style="font-weight:600;">−2.1% · $118.40</span></div>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ETHOS BAND -->
+  <sc-if value="{{ showEthos }}" hint-placeholder-val="{{ true }}">
+  <section style="background:#0a110e;">
+    <div style="max-width:1140px; margin:0 auto; padding:64px 28px; text-align:center;">
+      <div style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:#46e3b0; margin-bottom:18px;">The guiding principle</div>
+      <p style="font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:30px; line-height:1.32; letter-spacing:-0.02em; color:#f2f6f4; margin:0 auto; max-width:760px;">Noemo is a decision-support assistant, <span style="color:#46e3b0;">not an oracle.</span> Every signal shows its reasoning, confidence is never certainty, and nothing it produces is financial advice.</p>
+    </div>
+  </section>
+  </sc-if>
+
+  <!-- ROADMAP -->
+  <section id="roadmap" style="max-width:1140px; margin:0 auto; padding:72px 28px;">
+    <div style="margin-bottom:40px; max-width:560px;">
+      <div style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:#0c5a45; margin-bottom:12px;">How it works · Roadmap</div>
+      <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:38px; letter-spacing:-0.03em; margin:0 0 14px; line-height:1.05;">Built in phases, most defensible value first.</h2>
+      <p style="color:#56554e; font-size:16px; margin:0;">We start where the value is clearest — journaling and analytics need no market data at all — then layer news, fundamentals and timing on top.</p>
+    </div>
+
+    <div style="display:flex; flex-direction:column;">
+      <div style="border-left:2px solid #18b08a; margin-left:26px; padding:0 0 26px 30px; position:relative;">
+        <div style="position:absolute; left:-13px; top:-2px; width:24px; height:24px; border-radius:50%; background:#18b08a; box-shadow:0 0 0 4px #faf9f6;"></div>
+        <div style="display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;">
+          <span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px;">Phase 1 · Foundation</span>
+          <span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; background:#e9f9f3; color:#0c5a45; padding:3px 8px; border-radius:5px; letter-spacing:0.06em;">NOW BUILDING</span>
+          <span style="color:#56554e; font-size:15px; flex:1 1 100%;">Trade journal, performance analytics, behavioral pattern detection and a basic watchlist.</span>
+        </div>
+      </div>
+      <div style="border-left:2px solid #e3e0d7; margin-left:26px; padding:0 0 26px 30px; position:relative;">
+        <div style="position:absolute; left:-9px; top:-2px; width:16px; height:16px; border-radius:50%; background:#fff; border:2px solid #cfccc2; box-shadow:0 0 0 4px #faf9f6;"></div>
+        <div style="display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;">
+          <span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px;">Phase 2 · News &amp; Summarization</span>
+          <span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#9a988f; letter-spacing:0.06em;">NEXT</span>
+          <span style="color:#56554e; font-size:15px; flex:1 1 100%;">News feed integration, LLM-powered summaries and breaking alerts via push, email or Telegram.</span>
+        </div>
+      </div>
+      <div style="border-left:2px solid #e3e0d7; margin-left:26px; padding:0 0 26px 30px; position:relative;">
+        <div style="position:absolute; left:-9px; top:-2px; width:16px; height:16px; border-radius:50%; background:#fff; border:2px solid #cfccc2; box-shadow:0 0 0 4px #faf9f6;"></div>
+        <div style="display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;">
+          <span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px;">Phase 3 · Fundamental Analysis</span>
+          <span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#9a988f; letter-spacing:0.06em;">PLANNED</span>
+          <span style="color:#56554e; font-size:15px; flex:1 1 100%;">Financial data integration with LLM-generated narratives and change flags.</span>
+        </div>
+      </div>
+      <div style="border-left:2px solid #e3e0d7; margin-left:26px; padding:0 0 26px 30px; position:relative;">
+        <div style="position:absolute; left:-9px; top:-2px; width:16px; height:16px; border-radius:50%; background:#fff; border:2px solid #cfccc2; box-shadow:0 0 0 4px #faf9f6;"></div>
+        <div style="display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;">
+          <span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px;">Phase 4 · Timing &amp; Risk</span>
+          <span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#9a988f; letter-spacing:0.06em;">PLANNED</span>
+          <span style="color:#56554e; font-size:15px; flex:1 1 100%;">Technical conditions view, risk-management suggestions and a backtesting engine to validate any logic.</span>
+        </div>
+      </div>
+      <div style="border-left:2px solid transparent; margin-left:26px; padding:0 0 0 30px; position:relative;">
+        <div style="position:absolute; left:-9px; top:-2px; width:16px; height:16px; border-radius:50%; background:#fff; border:2px solid #cfccc2; box-shadow:0 0 0 4px #faf9f6;"></div>
+        <div style="display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;">
+          <span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px;">Phase 5 · Polish</span>
+          <span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#9a988f; letter-spacing:0.06em;">PLANNED</span>
+          <span style="color:#56554e; font-size:15px; flex:1 1 100%;">Real-time charts, refined UX and an optional native desktop build.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section id="join" style="max-width:1140px; margin:0 auto; padding:20px 28px 90px;">
+    <div style="position:relative; border-radius:26px; overflow:hidden; background:#0a110e; padding:64px 40px; text-align:center;">
+      <div style="position:absolute; inset:0; background:radial-gradient(70% 120% at 50% -10%, rgba(24,176,138,0.28), transparent 60%);"></div>
+      <div style="position:relative;">
+        <div style="width:50px; height:50px; margin:0 auto 22px; border-radius:14px; background:#18b08a; display:flex; align-items:center; justify-content:center; box-shadow:0 8px 24px rgba(0,0,0,0.4);">
+          <span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:26px; color:#04130d; line-height:1;">N</span>
+        </div>
+        <h2 style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:36px; letter-spacing:-0.03em; color:#f2f6f4; margin:0 0 14px; line-height:1.08;">Trade with a clearer head.</h2>
+        <p style="color:#9fb5ac; font-size:17px; margin:0 auto 30px; max-width:440px;">Join the waitlist and be first in when Noemo's journal opens up. No spam — just launch news.</p>
+        <div style="max-width:440px; margin:0 auto;">
+          <sc-if value="{{ ctaNotJoined }}" hint-placeholder-val="{{ true }}">
+            <div>
+              <div style="display:flex; gap:9px;">
+                <input type="email" value="{{ ctaEmail }}" onInput="{{ onCtaEmail }}" placeholder="you@email.com" style="flex:1; min-width:0; border:1px solid #243a32; background:#0f1a16; border-radius:11px; padding:13px 15px; font-size:15.5px; color:#eef6f2; outline:none;" />
+                <button onClick="{{ joinCta }}" style="flex:none; background:#18b08a; color:#04130d; border:none; border-radius:11px; padding:0 22px; font-size:15.5px; font-weight:700; cursor:pointer;">Join</button>
+              </div>
+              <sc-if value="{{ ctaErr }}">
+                <div style="color:#ff8a7a; font-size:13.5px; margin-top:9px; text-align:left; font-weight:500;">{{ ctaErr }}</div>
+              </sc-if>
+            </div>
+          </sc-if>
+          <sc-if value="{{ ctaJoined }}">
+            <div style="display:flex; align-items:center; justify-content:center; gap:11px; background:#0f1a16; border:1px solid #243a32; border-radius:13px; padding:16px 18px;">
+              <div style="width:30px; height:30px; border-radius:50%; background:#18b08a; color:#04130d; display:flex; align-items:center; justify-content:center; font-weight:800; flex:none;">✓</div>
+              <div style="text-align:left;"><div style="font-weight:700; font-size:15px; color:#eef6f2;">You're on the list.</div><div style="color:#9fb5ac; font-size:13.5px;">We'll reach out at {{ ctaEmail }}.</div></div>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="border-top:1px solid #ece9e2;">
+    <div style="max-width:1140px; margin:0 auto; padding:32px 28px; display:flex; align-items:center; justify-content:space-between; gap:18px; flex-wrap:wrap;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <div style="width:26px; height:26px; border-radius:7px; background:#18b08a; display:flex; align-items:center; justify-content:center;"><span style="font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; color:#04130d;">N</span></div>
+        <span style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:16px;">Noemo</span>
+      </div>
+      <div style="color:#9a988f; font-size:13px; max-width:540px; line-height:1.5;">Decision-support tool for informational purposes only. Nothing Noemo produces is financial advice — treat every output as one input to your own judgment.</div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1200,&quot;height&quot;:3400},&quot;waitlistCount&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:2481,&quot;tsType&quot;:&quot;number&quot;},&quot;showEthos&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;showTrustStrip&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  state = {
+    activeFeature: 'journal',
+    heroEmail: '', heroErr: '', heroJoined: false,
+    ctaEmail: '', ctaErr: '', ctaJoined: false,
+    count: (this.props && this.props.waitlistCount) || 2481,
+  };
+
+  valid(e){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test((e || '').trim()); }
+
+  navStyle(active){
+    return {
+      cursor: 'pointer',
+      border: '1px solid ' + (active ? '#cdeee2' : '#ece9e2'),
+      background: active ? '#fff' : 'transparent',
+      borderRadius: '13px',
+      padding: '14px 15px',
+      boxShadow: active ? '0 12px 28px -20px rgba(40,40,30,0.5)' : 'none',
+      transition: 'all .15s ease',
+    };
+  }
+
+  renderVals(){
+    const s = this.state;
+    const af = s.activeFeature;
+    return {
+      isJournal: af === 'journal',
+      isNews: af === 'news',
+      isFund: af === 'fundamentals',
+      isTiming: af === 'timing',
+      journalItemStyle: this.navStyle(af === 'journal'),
+      newsItemStyle: this.navStyle(af === 'news'),
+      fundItemStyle: this.navStyle(af === 'fundamentals'),
+      timingItemStyle: this.navStyle(af === 'timing'),
+      setJournal: () => this.setState({ activeFeature: 'journal' }),
+      setNews: () => this.setState({ activeFeature: 'news' }),
+      setFund: () => this.setState({ activeFeature: 'fundamentals' }),
+      setTiming: () => this.setState({ activeFeature: 'timing' }),
+
+      heroEmail: s.heroEmail,
+      heroErr: s.heroErr,
+      heroJoined: s.heroJoined,
+      heroNotJoined: !s.heroJoined,
+      onHeroEmail: (e) => this.setState({ heroEmail: e.target.value, heroErr: '' }),
+      joinHero: () => {
+        if (!this.valid(s.heroEmail)) { this.setState({ heroErr: 'Please enter a valid email.' }); return; }
+        this.setState({ heroJoined: true, count: s.count + 1 });
+      },
+
+      ctaEmail: s.ctaEmail,
+      ctaErr: s.ctaErr,
+      ctaJoined: s.ctaJoined,
+      ctaNotJoined: !s.ctaJoined,
+      onCtaEmail: (e) => this.setState({ ctaEmail: e.target.value, ctaErr: '' }),
+      joinCta: () => {
+        if (!this.valid(s.ctaEmail)) { this.setState({ ctaErr: 'Please enter a valid email.' }); return; }
+        this.setState({ ctaJoined: true, count: s.count + 1 });
+      },
+
+      countLabel: Number(s.count).toLocaleString(),
+      showEthos: this.props.showEthos !== false,
+      showTrustStrip: this.props.showTrustStrip !== false,
+    };
+  }
+}
+</script>
+</body>
+</html>

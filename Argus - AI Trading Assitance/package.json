@@ -1,0 +1,25 @@
+{
+  "name": "argus",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch-data": "tsx src/data/dukascopy.ts",
+    "backtest": "tsx src/backtest.ts",
+    "diagnose": "tsx src/diagnose.ts",
+    "variants": "tsx src/variants.ts",
+    "exits": "tsx src/exit-variants.ts",
+    "portfolio": "tsx src/portfolio.ts",
+    "report": "tsx src/report-html.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "dukascopy-node": "^1.42.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

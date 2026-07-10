@@ -1,0 +1,576 @@
+<title>Argus — Strategy Backtest</title>
+<style>
+  :root {
+    --surface: #fcfcfb;
+    --plane: #f9f9f7;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11, 11, 11, 0.10);
+    --series: #2a78d6;
+    --series-soft: rgba(42, 120, 214, 0.10);
+    --good: #006300;
+    --good-chip: #0ca30c;
+    --crit: #d03b3b;
+    --good-wash: rgba(12, 163, 12, 0.12);
+    --crit-wash: rgba(208, 59, 59, 0.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --surface: #1a1a19;
+      --plane: #0d0d0d;
+      --ink: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255, 255, 255, 0.10);
+      --series: #3987e5;
+      --series-soft: rgba(57, 135, 229, 0.14);
+      --good: #0ca30c;
+      --good-chip: #0ca30c;
+      --crit: #d03b3b;
+      --good-wash: rgba(12, 163, 12, 0.16);
+      --crit-wash: rgba(208, 59, 59, 0.16);
+    }
+  }
+  :root[data-theme="light"] {
+    --surface: #fcfcfb;
+    --plane: #f9f9f7;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11, 11, 11, 0.10);
+    --series: #2a78d6;
+    --series-soft: rgba(42, 120, 214, 0.10);
+    --good: #006300;
+    --good-chip: #0ca30c;
+    --crit: #d03b3b;
+    --good-wash: rgba(12, 163, 12, 0.12);
+    --crit-wash: rgba(208, 59, 59, 0.10);
+  }
+  :root[data-theme="dark"] {
+    --surface: #1a1a19;
+    --plane: #0d0d0d;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255, 255, 255, 0.10);
+    --series: #3987e5;
+    --series-soft: rgba(57, 135, 229, 0.14);
+    --good: #0ca30c;
+    --good-chip: #0ca30c;
+    --crit: #d03b3b;
+    --good-wash: rgba(12, 163, 12, 0.16);
+    --crit-wash: rgba(208, 59, 59, 0.16);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--plane);
+    color: var(--ink);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1060px; margin: 0 auto; padding: 32px 20px 64px; }
+  .mono { font-family: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace; }
+
+  header { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px; margin-bottom: 24px; }
+  .head-text { flex: 1 1 auto; min-width: 260px; }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--muted);
+    margin: 0 0 6px;
+  }
+  h1 { margin: 0; font-size: 26px; font-weight: 650; letter-spacing: -0.02em; text-wrap: balance; }
+  .subtitle { margin: 6px 0 0; color: var(--ink-2); font-size: 14px; max-width: 62ch; }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; }
+  .toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--surface); }
+  .toggle button {
+    appearance: none; border: 0; background: transparent; color: var(--ink-2);
+    font: 600 13px/1 system-ui, sans-serif; padding: 10px 18px; cursor: pointer;
+  }
+  .toggle button[aria-pressed="true"] { background: var(--series); color: #fff; }
+  .toggle button:focus-visible { outline: 2px solid var(--series); outline-offset: -2px; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+  .tile .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); font-weight: 600; }
+  .tile .value { font-size: 26px; font-weight: 650; margin-top: 4px; letter-spacing: -0.01em; }
+  .tile .note { font-size: 12px; color: var(--ink-2); margin-top: 2px; }
+  .tile .value.pos { color: var(--good); }
+  .tile .value.neg { color: var(--crit); }
+
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 24px; }
+  .panel h2 { margin: 0 0 2px; font-size: 16px; font-weight: 650; }
+  .panel .desc { margin: 0 0 16px; color: var(--ink-2); font-size: 13px; }
+
+  .chart-box { position: relative; }
+  #chart { display: block; width: 100%; height: auto; }
+  .tooltip {
+    position: absolute; pointer-events: none; display: none;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.14);
+    padding: 8px 10px; font-size: 12px; line-height: 1.45; min-width: 170px; z-index: 5;
+  }
+  .tooltip .tt-date { color: var(--muted); }
+  .tooltip .tt-row { display: flex; justify-content: space-between; gap: 12px; }
+
+  .chip {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px;
+  }
+  .chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; }
+  .chip.win { background: var(--good-wash); color: var(--good); }
+  .chip.win::before { background: var(--good-chip); }
+  .chip.loss { background: var(--crit-wash); color: var(--crit); }
+  .chip.loss::before { background: var(--crit); }
+  .dir { font-weight: 650; }
+  .dir.buy::before { content: "▲ "; font-size: 10px; color: var(--muted); }
+  .dir.sell::before { content: "▼ "; font-size: 10px; color: var(--muted); }
+
+  .table-scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  thead th {
+    text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--muted); font-weight: 600; padding: 8px 12px; border-bottom: 1px solid var(--baseline);
+    white-space: nowrap;
+  }
+  tbody td { padding: 9px 12px; border-bottom: 1px solid var(--grid); vertical-align: top; white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.reasons { white-space: normal; min-width: 260px; color: var(--ink-2); font-size: 12.5px; }
+  footer { color: var(--muted); font-size: 12.5px; max-width: 72ch; }
+
+  .chip.be { background: var(--series-soft); color: var(--series); }
+  .chip.be::before { background: var(--series); }
+  td.pos, .val-pos { color: var(--good); }
+  td.neg, .val-neg { color: var(--crit); }
+  tbody tr.hl td { background: var(--good-wash); }
+  .split-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+  @media (min-width: 900px) { .split-grid { grid-template-columns: 1fr 1fr; } }
+  .split-grid h3 { margin: 0 0 8px; font-size: 13px; font-weight: 650; color: var(--ink-2); text-transform: uppercase; letter-spacing: 0.08em; }
+  .rules h3 { margin: 18px 0 6px; font-size: 14px; font-weight: 650; }
+  .rules h3:first-of-type { margin-top: 0; }
+  .rules p, .rules li { color: var(--ink-2); font-size: 13.5px; }
+  .rules ul, .rules ol { margin: 4px 0 10px; padding-left: 22px; }
+  .rules code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12.5px; background: var(--plane); border: 1px solid var(--grid); border-radius: 4px; padding: 1px 5px; }
+  .rules table { margin: 6px 0 10px; }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="head-text">
+      <p class="eyebrow">Argus · Strategy Backtest · Conservative fills</p>
+      <h1 id="title">Multi-timeframe trend strategy</h1>
+      <p class="subtitle" id="subtitle"></p>
+    </div>
+    <div class="controls">
+      <div class="toggle" role="group" aria-label="Pair" id="pair-toggle"></div>
+      <div class="toggle" role="group" aria-label="Entry timeframe">
+        <button id="btn-15m" aria-pressed="true">15m entries</button>
+        <button id="btn-5m" aria-pressed="false">5m entries</button>
+      </div>
+      <div class="toggle" role="group" aria-label="Period">
+        <button id="btn-full" aria-pressed="true">Full history</button>
+        <button id="btn-ytd" aria-pressed="false">2026 Jan–Jul</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="tiles" id="tiles" aria-label="Summary statistics"></section>
+
+  <section class="panel">
+    <h2>Equity curve</h2>
+    <p class="desc">Cumulative realized R across closed signals (v1.2 exits: 3R target, 1.5R trailing stop armed at +1.5R; losses −1R).</p>
+    <div class="chart-box">
+      <svg id="chart" viewBox="0 0 1000 360" role="img" aria-label="Cumulative R equity curve"></svg>
+      <div class="tooltip" id="tooltip"></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Trade ledger</h2>
+    <p class="desc" id="ledger-desc"></p>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th class="num">#</th><th>Signal time (NY)</th><th>Dir</th>
+            <th class="num">Entry</th><th class="num">Stop</th><th class="num">Target</th>
+            <th>Outcome</th><th class="num">Cum R</th><th>Confluences</th>
+          </tr>
+        </thead>
+        <tbody id="ledger"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel" id="portfolio-panel" hidden>
+    <h2>Portfolio — XAUUSD 15m + 5m combined</h2>
+    <p class="desc" id="portfolio-desc"></p>
+    <section class="tiles" id="portfolio-tiles"></section>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Month</th><th class="num">Trades</th><th class="num">Net R</th></tr></thead>
+        <tbody id="portfolio-monthly"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel" id="exits-panel" hidden>
+    <h2>Exit-model comparison</h2>
+    <p class="desc">Eleven exit models per stream, tuned in-sample (before 2025) and validated out-of-sample
+      (2025 onward). Highlighted: 3R target with a 1.5R trailing stop — the only model that beat the fixed-2R
+      baseline in both windows on both XAUUSD streams. <strong>Adopted as the v1.2 default (2026-07-08).</strong></p>
+    <div class="split-grid" id="exits-tables"></div>
+  </section>
+
+  <section class="panel rules">
+    <h2>The exact strategy (spec v1.2)</h2>
+    <p class="desc">Every rule the signal engine applies, verbatim from <span class="mono">docs/STRATEGY_SPEC.md</span>.
+      All thresholds are configuration, not code.</p>
+
+    <h3>1 · Instruments &amp; timeframes</h3>
+    <ul>
+      <li><strong>Pair:</strong> XAUUSD (gold). GBPUSD and EURUSD were tested and removed — both negative out-of-sample (2025+) under every exit model.</li>
+      <li><strong>Entry timeframes:</strong> 15m (priority) and 5m, run as separate streams.</li>
+      <li><strong>Analysis stack (top-down):</strong> 3-month → Monthly → Weekly → Daily → 3h → 45m → entry timeframe.</li>
+      <li>All day/week/month boundaries use the <strong>5:00pm ET broker day</strong> (America/New_York, DST-aware).</li>
+    </ul>
+
+    <h3>2 · Long-term bias (Monthly, Weekly, Daily)</h3>
+    <ul>
+      <li>On each timeframe: close above the 20-period SMA → bullish; below → bearish.</li>
+      <li>All three must agree — trade only that direction. Any disagreement → <strong>no signal</strong> (reversals are skipped).</li>
+    </ul>
+
+    <h3>3 · Intermediate confirmation (3h &amp; 45m)</h3>
+    <ul>
+      <li>Both must be on the correct side of their 20 SMA, and</li>
+      <li>show <strong>healthy candles</strong>: none of the last 3 closed candles is a momentum candle <em>against</em> the trade direction.</li>
+    </ul>
+
+    <h3>4 · Higher-timeframe levels</h3>
+    <ul>
+      <li>From the <strong>previous completed</strong> month and 3-month period: the high, the low, and the 50% midpoint (fixed once the period closes — no repainting).</li>
+      <li>"At a level" = the trigger candle touches it, or closes within <strong>0.25 × ATR(14, daily)</strong> of it.</li>
+    </ul>
+
+    <h3>5 · Candle classification</h3>
+    <ul>
+      <li><strong>Momentum:</strong> body ≥ 70% of range — conviction in the close direction.</li>
+      <li><strong>Doji:</strong> body ≤ 10% of range — indecision, never a trigger.</li>
+      <li><strong>Rejection:</strong> combined wicks &gt; body; the dominant wick names it (long lower wick = bullish rejection).</li>
+    </ul>
+
+    <h3>6 · Session filter</h3>
+    <ul>
+      <li>Signals only when the trigger candle sits fully inside <strong>8:30am – 12:00pm New York</strong>.</li>
+    </ul>
+
+    <h3>7 · Entry (bullish; bearish is the exact mirror)</h3>
+    <ol>
+      <li>Monthly, Weekly, Daily all bullish (§2).</li>
+      <li>3h and 45m confirm (§3).</li>
+      <li>Entry-timeframe close above its 20 SMA.</li>
+      <li>Close above the 5:00pm-ET daily open (a retest that closes back above still qualifies).</li>
+      <li>Trigger: a bullish momentum or bullish rejection candle forming <strong>at a decision point</strong> — touching the entry 20 SMA, the daily open, or an HTF level (§4).</li>
+    </ol>
+
+    <h3>8 · Exits &amp; risk</h3>
+    <ul>
+      <li><strong>Stop loss:</strong> 5 pips beyond the most recent <strong>confirmed 15m swing point</strong> (more extreme than the 2 candles each side, confirmed once those close). Always the 15m swing, even for 5m entries. Gold: 5 pips = $0.50.</li>
+      <li><strong>Take profit (v1.2 default):</strong> <strong>3R target with a 1.5R trailing stop</strong> that arms once price is +1.5R in favor; the trade ends at stop, trail-out, or 3R. (v1.1 fixed 2R remains available in config.)</li>
+      <li>No time-based exit; one open signal at a time per pair/timeframe.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Simulation rules: spread charged on every entry; a 1-minute candle touching both stop and target
+    counts as a loss; one open signal at a time. Data: Dukascopy 1m bid candles. Session window
+    08:30–12:00 New York. Past performance does not guarantee future results.
+  </footer>
+</div>
+
+<script>
+  const DATA = /*__DATA__*/;
+
+  const fmtNY = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    year: "numeric", month: "short", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false
+  });
+  const PAIR_IDS = Object.keys(DATA.pairs);
+  const priceFmt = (v) => v.toFixed(DATA.decimals[currentPair] ?? 2);
+
+  const tradeR = (t) => t.r ?? (t.outcome === "win" ? 2 : t.outcome === "loss" ? -1 : 0);
+
+  function enrich(trades) {
+    let cum = 0;
+    return trades.map((t, i) => {
+      if (t.outcome !== "open") cum += tradeR(t);
+      return { ...t, index: i + 1, cumR: Math.round(cum * 100) / 100 };
+    });
+  }
+
+  function stats(trades) {
+    const closed = trades.filter((t) => t.outcome !== "open");
+    let wins = 0, losses = 0, grossWin = 0, grossLoss = 0;
+    let cum = 0, peak = 0, dd = 0;
+    for (const t of closed) {
+      const r = tradeR(t);
+      if (r > 1e-9) { wins++; grossWin += r; }
+      else if (r < -1e-9) { losses++; grossLoss -= r; }
+      cum += r;
+      peak = Math.max(peak, cum);
+      dd = Math.max(dd, peak - cum);
+    }
+    const netR = grossWin - grossLoss;
+    return {
+      signals: trades.length, wins, losses,
+      winRate: wins + losses ? wins / (wins + losses) : 0,
+      netR,
+      profitFactor: grossLoss ? grossWin / grossLoss : Infinity,
+      maxDD: dd,
+      first: trades[0] ? new Date(trades[0].signal.time) : null,
+      last: trades.length ? new Date(trades[trades.length - 1].signal.time) : null
+    };
+  }
+
+  function renderTiles(s) {
+    const signed = (v) => (v > 0 ? "+" : "") + v.toFixed(1);
+    const tiles = [
+      { label: "Signals", value: String(s.signals), note: `${s.wins} wins · ${s.losses} losses` },
+      { label: "Win rate", value: (s.winRate * 100).toFixed(1) + "%", note: "wins vs losses (BE excluded)", cls: s.netR > 0 ? "pos" : "neg" },
+      { label: "Net result", value: signed(s.netR) + "R", note: "risk 1R per signal", cls: s.netR > 0 ? "pos" : "neg" },
+      { label: "Profit factor", value: Number.isFinite(s.profitFactor) ? s.profitFactor.toFixed(2) : "∞", note: "gross win ÷ gross loss" },
+      { label: "Max drawdown", value: s.maxDD.toFixed(1) + "R", note: "worst losing stretch" },
+      { label: "Avg per signal", value: signed(s.signals ? s.netR / s.signals : 0) + "R", note: "expectancy" }
+    ];
+    document.getElementById("tiles").innerHTML = tiles.map((t) => `
+      <div class="tile">
+        <div class="label">${t.label}</div>
+        <div class="value mono ${t.cls ?? ""}">${t.value}</div>
+        <div class="note">${t.note}</div>
+      </div>`).join("");
+  }
+
+  function renderChart(trades) {
+    const svg = document.getElementById("chart");
+    const tooltip = document.getElementById("tooltip");
+    const W = 1000, H = 360, m = { top: 18, right: 24, bottom: 30, left: 46 };
+    const iw = W - m.left - m.right, ih = H - m.top - m.bottom;
+    const pts = [{ index: 0, cumR: 0 }].concat(trades);
+    const maxY = Math.max(2, ...pts.map((p) => p.cumR));
+    const minY = Math.min(0, ...pts.map((p) => p.cumR));
+    const x = (i) => m.left + (i / Math.max(1, trades.length)) * iw;
+    const y = (v) => m.top + ih - ((v - minY) / (maxY - minY)) * ih;
+
+    let gridLines = "";
+    const step = maxY - minY > 12 ? 4 : 2;
+    for (let v = Math.ceil(minY / step) * step; v <= maxY; v += step) {
+      const isZero = v === 0;
+      gridLines += `<line x1="${m.left}" x2="${W - m.right}" y1="${y(v)}" y2="${y(v)}"
+        stroke="${isZero ? "var(--baseline)" : "var(--grid)"}" stroke-width="1"/>
+        <text x="${m.left - 8}" y="${y(v) + 4}" text-anchor="end" font-size="11"
+          fill="var(--muted)" font-family="ui-monospace, Menlo, monospace">${v > 0 ? "+" + v : v}</text>`;
+    }
+
+    const line = pts.map((p, i) => `${i ? "L" : "M"}${x(p.index)},${y(p.cumR)}`).join("");
+    const area = line + `L${x(pts[pts.length - 1].index)},${y(Math.max(0, minY))}L${x(0)},${y(Math.max(0, minY))}Z`;
+    const last = pts[pts.length - 1];
+
+    svg.innerHTML = `
+      ${gridLines}
+      <path d="${area}" fill="var(--series-soft)"/>
+      <path d="${line}" fill="none" stroke="var(--series)" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="${x(last.index)}" cy="${y(last.cumR)}" r="4.5" fill="var(--series)" stroke="var(--surface)" stroke-width="2"/>
+      <text x="${Math.min(x(last.index), W - m.right - 4)}" y="${y(last.cumR) - 10}" text-anchor="end" font-size="12" font-weight="600"
+        fill="var(--ink)" font-family="ui-monospace, Menlo, monospace">${last.cumR > 0 ? "+" : ""}${last.cumR}R</text>
+      <text x="${m.left}" y="${H - 8}" font-size="11" fill="var(--muted)">signal #1</text>
+      <text x="${W - m.right}" y="${H - 8}" text-anchor="end" font-size="11" fill="var(--muted)">signal #${trades.length}</text>
+      <line id="cursor" y1="${m.top}" y2="${m.top + ih}" stroke="var(--baseline)" stroke-width="1" stroke-dasharray="3 3" visibility="hidden"/>
+      <circle id="cursor-dot" r="4" fill="var(--series)" stroke="var(--surface)" stroke-width="2" visibility="hidden"/>
+      <rect x="${m.left}" y="${m.top}" width="${iw}" height="${ih}" fill="transparent" id="hover-rect"/>`;
+
+    const rect = svg.querySelector("#hover-rect");
+    const cursor = svg.querySelector("#cursor");
+    const dot = svg.querySelector("#cursor-dot");
+    rect.addEventListener("mousemove", (ev) => {
+      const box = svg.getBoundingClientRect();
+      const px = ((ev.clientX - box.left) / box.width) * W;
+      const idx = Math.round(((px - m.left) / iw) * trades.length);
+      const t = trades[Math.min(trades.length - 1, Math.max(0, idx - 1))];
+      if (!t) return;
+      const cx = x(t.index), cy = y(t.cumR);
+      cursor.setAttribute("x1", cx); cursor.setAttribute("x2", cx); cursor.setAttribute("visibility", "visible");
+      dot.setAttribute("cx", cx); dot.setAttribute("cy", cy); dot.setAttribute("visibility", "visible");
+      tooltip.style.display = "block";
+      const leftPct = (cx / W) * 100;
+      tooltip.style.left = leftPct > 60 ? "auto" : `calc(${leftPct}% + 14px)`;
+      tooltip.style.right = leftPct > 60 ? `calc(${100 - leftPct}% + 14px)` : "auto";
+      tooltip.style.top = `${(cy / H) * 100}%`;
+      tooltip.innerHTML = `
+        <div class="tt-date">${fmtNY.format(new Date(t.signal.time))} NY</div>
+        <div class="tt-row"><span>Signal #${t.index} · ${t.signal.direction.toUpperCase()}</span>
+          <span class="chip ${t.outcome}">${t.outcome}</span></div>
+        <div class="tt-row"><span>Entry</span><span class="mono">${priceFmt(t.signal.entry)}</span></div>
+        <div class="tt-row"><span>Cumulative</span><span class="mono">${t.cumR > 0 ? "+" : ""}${t.cumR}R</span></div>`;
+    });
+    rect.addEventListener("mouseleave", () => {
+      tooltip.style.display = "none";
+      cursor.setAttribute("visibility", "hidden");
+      dot.setAttribute("visibility", "hidden");
+    });
+  }
+
+  function renderLedger(trades) {
+    document.getElementById("ledger").innerHTML = trades.map((t) => `
+      <tr>
+        <td class="num mono">${t.index}</td>
+        <td class="mono">${fmtNY.format(new Date(t.signal.time))}</td>
+        <td><span class="dir ${t.signal.direction}">${t.signal.direction.toUpperCase()}</span></td>
+        <td class="num mono">${priceFmt(t.signal.entry)}</td>
+        <td class="num mono">${priceFmt(t.signal.stopLoss)}</td>
+        <td class="num mono">${priceFmt(t.signal.takeProfit)}</td>
+        <td><span class="chip ${t.outcome}">${t.outcome === "open" ? "open" : t.outcome + " " + (tradeR(t) > 0 ? "+" : "") + tradeR(t) + "R"}</span></td>
+        <td class="num mono">${t.cumR > 0 ? "+" : ""}${t.cumR}</td>
+        <td class="reasons">${t.signal.reasons.join(" · ")}</td>
+      </tr>`).join("");
+  }
+
+  const YTD_FROM = Date.UTC(2026, 0, 1);
+  const YTD_TO = Date.UTC(2026, 6, 7); // through July 6, 2026
+  let currentPair = PAIR_IDS[0];
+  let currentTf = "15m";
+  let currentPeriod = "full";
+
+  const pairToggle = document.getElementById("pair-toggle");
+  pairToggle.innerHTML = PAIR_IDS.map((p) =>
+    `<button id="btn-pair-${p}" aria-pressed="false">${p}</button>`).join("");
+  for (const p of PAIR_IDS) {
+    document.getElementById("btn-pair-" + p).addEventListener("click", () => { currentPair = p; show(); });
+  }
+  if (PAIR_IDS.length < 2) pairToggle.style.display = "none";
+
+  function show() {
+    const raw = currentPeriod === "ytd"
+      ? DATA.pairs[currentPair][currentTf].filter((t) => t.signal.time >= YTD_FROM && t.signal.time < YTD_TO)
+      : DATA.pairs[currentPair][currentTf];
+    const trades = enrich(raw);
+    const s = stats(trades);
+    const range = currentPeriod === "ytd"
+      ? "Jan 1 – Jul 6, 2026"
+      : s.first && s.last
+        ? `${s.first.toLocaleDateString("en-US", { month: "short", year: "numeric" })} – ${s.last.toLocaleDateString("en-US", { month: "short", year: "numeric" })}`
+        : "no signals";
+    document.getElementById("title").textContent = `${currentPair} — multi-timeframe trend strategy`;
+    document.getElementById("subtitle").textContent =
+      `Strategy v1.2 replayed candle-by-candle over Dukascopy 1-minute history, ${range}. ` +
+      `Entries on the ${currentTf} chart; stops 5 pips beyond the last 15m swing; exits: 3R target with a 1.5R trailing stop.`;
+    document.getElementById("ledger-desc").textContent =
+      `${trades.length} signals on the ${currentTf} entry timeframe (${range}), oldest first.`;
+    renderTiles(s);
+    renderChart(trades);
+    renderLedger(trades);
+    for (const p of PAIR_IDS) {
+      document.getElementById("btn-pair-" + p).setAttribute("aria-pressed", String(p === currentPair));
+    }
+    document.getElementById("btn-15m").setAttribute("aria-pressed", String(currentTf === "15m"));
+    document.getElementById("btn-5m").setAttribute("aria-pressed", String(currentTf === "5m"));
+    document.getElementById("btn-full").setAttribute("aria-pressed", String(currentPeriod === "full"));
+    document.getElementById("btn-ytd").setAttribute("aria-pressed", String(currentPeriod === "ytd"));
+  }
+
+  document.getElementById("btn-15m").addEventListener("click", () => { currentTf = "15m"; show(); });
+  document.getElementById("btn-5m").addEventListener("click", () => { currentTf = "5m"; show(); });
+  document.getElementById("btn-full").addEventListener("click", () => { currentPeriod = "full"; show(); });
+  document.getElementById("btn-ytd").addEventListener("click", () => { currentPeriod = "ytd"; show(); });
+  show();
+
+  function renderPortfolio() {
+    const p = DATA.portfolio;
+    if (!p || !p.trades.length) return;
+    document.getElementById("portfolio-panel").hidden = false;
+    const s = stats(p.trades);
+    const months = Math.max(1, (s.last - s.first) / (30.44 * 86400000));
+    document.getElementById("portfolio-desc").textContent =
+      `${p.streams.join(" + ")} merged into one stream (v1.2 exits). 5m signals duplicating an open or ` +
+      `recent same-direction 15m trade (${p.dedupHours}h window) are dropped: ${p.dropped} removed. ` +
+      `This is the trade count the whole system actually takes.`;
+    const signed = (v) => (v > 0 ? "+" : "") + v.toFixed(1);
+    document.getElementById("portfolio-tiles").innerHTML = [
+      { label: "Trades / month", value: (s.signals / months).toFixed(1), note: `${s.signals} trades over ${Math.round(months)} months` },
+      { label: "Win rate", value: (s.winRate * 100).toFixed(1) + "%", note: `${s.wins} wins · ${s.losses} losses`, cls: s.winRate > 1 / 3 ? "pos" : "neg" },
+      { label: "Net result", value: signed(s.netR) + "R", note: `${signed(s.netR / months)}R per month`, cls: s.netR > 0 ? "pos" : "neg" },
+      { label: "Profit factor", value: Number.isFinite(s.profitFactor) ? s.profitFactor.toFixed(2) : "∞", note: "gross win ÷ gross loss" },
+      { label: "Max drawdown", value: s.maxDD.toFixed(1) + "R", note: "worst losing stretch" }
+    ].map((t) => `
+      <div class="tile">
+        <div class="label">${t.label}</div>
+        <div class="value mono ${t.cls ?? ""}">${t.value}</div>
+        <div class="note">${t.note}</div>
+      </div>`).join("");
+
+    const monthly = new Map();
+    for (const t of p.trades) {
+      const key = new Date(t.signal.time).toISOString().slice(0, 7);
+      const m = monthly.get(key) ?? { n: 0, r: 0 };
+      m.n++; m.r += tradeR(t);
+      monthly.set(key, m);
+    }
+    document.getElementById("portfolio-monthly").innerHTML = [...monthly.entries()].sort()
+      .map(([key, m]) => `
+        <tr>
+          <td class="mono">${key}</td>
+          <td class="num mono">${m.n}</td>
+          <td class="num mono ${m.r > 0.001 ? "pos" : m.r < -0.001 ? "neg" : ""}">${m.r > 0 ? "+" : ""}${m.r.toFixed(1)}</td>
+        </tr>`).join("");
+  }
+
+  function renderExits() {
+    if (!DATA.exitVariants || !DATA.exitVariants.length) return;
+    document.getElementById("exits-panel").hidden = false;
+    const RECOMMENDED = "3R, trail 1.5R after 1.5R";
+    const table = (title, rows, pick) => `
+      <div>
+        <h3>${title}</h3>
+        <div class="table-scroll">
+          <table>
+            <thead><tr>
+              <th>Exit model</th><th class="num">Signals</th><th class="num">Win rate</th>
+              <th class="num">Net R</th><th class="num">PF</th><th class="num">Max DD</th>
+            </tr></thead>
+            <tbody>${rows.map((r) => {
+              const s = pick(r);
+              return `<tr class="${r.name === RECOMMENDED ? "hl" : ""}">
+                <td>${r.name}</td>
+                <td class="num mono">${s.trades}</td>
+                <td class="num mono">${(s.winRate * 100).toFixed(1)}%</td>
+                <td class="num mono ${s.netR > 0.001 ? "pos" : s.netR < -0.001 ? "neg" : ""}">${s.netR > 0 ? "+" : ""}${s.netR.toFixed(1)}</td>
+                <td class="num mono">${Number.isFinite(s.profitFactor) ? s.profitFactor.toFixed(2) : "∞"}</td>
+                <td class="num mono">${s.maxDrawdownR.toFixed(1)}R</td>
+              </tr>`;
+            }).join("")}</tbody>
+          </table>
+        </div>
+      </div>`;
+    document.getElementById("exits-tables").innerHTML = DATA.exitVariants.map(({ pair, tf, rows }) =>
+      table(`${pair} ${tf} — in-sample (before 2025)`, rows, (r) => r.inSample) +
+      table(`${pair} ${tf} — out-of-sample (2025 →)`, rows, (r) => r.outOfSample)
+    ).join("");
+  }
+
+  renderPortfolio();
+  renderExits();
+</script>
