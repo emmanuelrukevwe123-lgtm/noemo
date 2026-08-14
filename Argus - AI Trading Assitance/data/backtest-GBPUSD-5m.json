@@ -1,0 +1,2209 @@
+[
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1662036900000,
+      "entryTimeframe": "5m",
+      "entry": 1.15608,
+      "stopLoss": 1.15882,
+      "takeProfit": 1.14786,
+      "risk": 0.0027399999999999647,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1662044700000,
+    "realizedR": 0.77737226277372
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1662123300000,
+      "entryTimeframe": "5m",
+      "entry": 1.1536600000000001,
+      "stopLoss": 1.15746,
+      "takeProfit": 1.1422600000000007,
+      "risk": 0.0037999999999998035,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1662128940000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1662556200000,
+      "entryTimeframe": "5m",
+      "entry": 1.14186,
+      "stopLoss": 1.14415,
+      "takeProfit": 1.1349900000000004,
+      "risk": 0.0022899999999999032,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1662557700000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1662558900000,
+      "entryTimeframe": "5m",
+      "entry": 1.14198,
+      "stopLoss": 1.14415,
+      "takeProfit": 1.13547,
+      "risk": 0.0021700000000000053,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1662560760000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1662651600000,
+      "entryTimeframe": "5m",
+      "entry": 1.14901,
+      "stopLoss": 1.1509399999999999,
+      "takeProfit": 1.1432200000000008,
+      "risk": 0.0019299999999997652,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1662657480000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1663766400000,
+      "entryTimeframe": "5m",
+      "entry": 1.13382,
+      "stopLoss": 1.13523,
+      "takeProfit": 1.1295900000000003,
+      "risk": 0.0014099999999999113,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1663782420000,
+    "realizedR": 0.7695035460994986
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1663859700000,
+      "entryTimeframe": "5m",
+      "entry": 1.12572,
+      "stopLoss": 1.13529,
+      "takeProfit": 1.0970100000000005,
+      "risk": 0.009569999999999856,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1663943040000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1665153600000,
+      "entryTimeframe": "5m",
+      "entry": 1.1090200000000001,
+      "stopLoss": 1.1218,
+      "takeProfit": 1.0706800000000007,
+      "risk": 0.012779999999999792,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at monthly 50% (1.1032)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1665660780000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1677686700000,
+      "entryTimeframe": "5m",
+      "entry": 1.19893,
+      "stopLoss": 1.20418,
+      "takeProfit": 1.1831800000000001,
+      "risk": 0.005249999999999977,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1677690420000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1677774600000,
+      "entryTimeframe": "5m",
+      "entry": 1.1941300000000001,
+      "stopLoss": 1.19632,
+      "takeProfit": 1.1875600000000004,
+      "risk": 0.0021899999999999142,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 5m 20 SMA",
+        "at monthly low (1.19145)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1677804720000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1688391600000,
+      "entryTimeframe": "5m",
+      "entry": 1.26941,
+      "stopLoss": 1.26563,
+      "takeProfit": 1.2807499999999996,
+      "risk": 0.0037799999999998946,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1688652000000,
+    "realizedR": 0.7857142857143444
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1688736300000,
+      "entryTimeframe": "5m",
+      "entry": 1.2773899999999998,
+      "stopLoss": 1.2746300000000002,
+      "takeProfit": 1.2856699999999988,
+      "risk": 0.0027599999999996516,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1688965980000,
+    "realizedR": 1.2246376811597939
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1689090900000,
+      "entryTimeframe": "5m",
+      "entry": 1.28999,
+      "stopLoss": 1.2886300000000002,
+      "takeProfit": 1.2940699999999994,
+      "risk": 0.0013599999999998058,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1689121680000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1689261300000,
+      "entryTimeframe": "5m",
+      "entry": 1.3105799999999999,
+      "stopLoss": 1.30855,
+      "takeProfit": 1.3166699999999991,
+      "risk": 0.0020299999999997542,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1689315780000,
+    "realizedR": 0.2733990147785086
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1690379700000,
+      "entryTimeframe": "5m",
+      "entry": 1.2914999999999999,
+      "stopLoss": 1.2898100000000001,
+      "takeProfit": 1.2965699999999991,
+      "risk": 0.0016899999999997473,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1690394400000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1696256100000,
+      "entryTimeframe": "5m",
+      "entry": 1.21211,
+      "stopLoss": 1.21721,
+      "takeProfit": 1.1968100000000004,
+      "risk": 0.005099999999999882,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at monthly low (1.21101)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1696409760000,
+    "realizedR": 0.15098039215689749
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1697203500000,
+      "entryTimeframe": "5m",
+      "entry": 1.21621,
+      "stopLoss": 1.2205899999999998,
+      "takeProfit": 1.2030700000000005,
+      "risk": 0.0043799999999998285,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1697475900000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1698237600000,
+      "entryTimeframe": "5m",
+      "entry": 1.21205,
+      "stopLoss": 1.21374,
+      "takeProfit": 1.2069800000000002,
+      "risk": 0.0016899999999999693,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 5m 20 SMA",
+        "at monthly low (1.21101)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1698239520000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1698843600000,
+      "entryTimeframe": "5m",
+      "entry": 1.21204,
+      "stopLoss": 1.2149699999999999,
+      "takeProfit": 1.2032500000000004,
+      "risk": 0.002929999999999877,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at quarterly low (1.21101)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1698848820000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1702561500000,
+      "entryTimeframe": "5m",
+      "entry": 1.2708799999999998,
+      "stopLoss": 1.26557,
+      "takeProfit": 1.286809999999999,
+      "risk": 0.005309999999999704,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1702647540000,
+    "realizedR": 0.09887005649728477
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1702993200000,
+      "entryTimeframe": "5m",
+      "entry": 1.27466,
+      "stopLoss": 1.26921,
+      "takeProfit": 1.2910099999999998,
+      "risk": 0.005449999999999955,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (1.27329)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1703055600000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1703253300000,
+      "entryTimeframe": "5m",
+      "entry": 1.27369,
+      "stopLoss": 1.2705,
+      "takeProfit": 1.28326,
+      "risk": 0.003190000000000026,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at monthly high (1.27329)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1703264820000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1703684400000,
+      "entryTimeframe": "5m",
+      "entry": 1.27535,
+      "stopLoss": 1.27258,
+      "takeProfit": 1.2836599999999998,
+      "risk": 0.002769999999999939,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.27329)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1703765220000,
+    "realizedR": 1.1606498194946788
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1704722400000,
+      "entryTimeframe": "5m",
+      "entry": 1.27127,
+      "stopLoss": 1.26964,
+      "takeProfit": 1.2761599999999993,
+      "risk": 0.0016299999999997983,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1704731820000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1704893700000,
+      "entryTimeframe": "5m",
+      "entry": 1.27327,
+      "stopLoss": 1.27126,
+      "takeProfit": 1.2792999999999994,
+      "risk": 0.0020099999999998452,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1704965400000,
+    "realizedR": 0.534825870646997
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1706191200000,
+      "entryTimeframe": "5m",
+      "entry": 1.2736999999999998,
+      "stopLoss": 1.27172,
+      "takeProfit": 1.2796399999999994,
+      "risk": 0.0019799999999998708,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1706192280000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1708707000000,
+      "entryTimeframe": "5m",
+      "entry": 1.26769,
+      "stopLoss": 1.26604,
+      "takeProfit": 1.2726399999999998,
+      "risk": 0.0016499999999999293,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA",
+        "at monthly 50% (1.269085)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1708909620000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1708954800000,
+      "entryTimeframe": "5m",
+      "entry": 1.26975,
+      "stopLoss": 1.2678,
+      "takeProfit": 1.2755999999999996,
+      "risk": 0.0019499999999998963,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at monthly 50% (1.269085)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1708959600000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1708965900000,
+      "entryTimeframe": "5m",
+      "entry": 1.2679799999999999,
+      "stopLoss": 1.26667,
+      "takeProfit": 1.2719099999999997,
+      "risk": 0.0013099999999999223,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA",
+        "at monthly 50% (1.269085)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1709045700000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1709050500000,
+      "entryTimeframe": "5m",
+      "entry": 1.26917,
+      "stopLoss": 1.26659,
+      "takeProfit": 1.2769099999999993,
+      "risk": 0.0025799999999998047,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at daily open",
+        "at monthly 50% (1.269085)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1709090280000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1709309100000,
+      "entryTimeframe": "5m",
+      "entry": 1.2650599999999999,
+      "stopLoss": 1.25945,
+      "takeProfit": 1.2818899999999995,
+      "risk": 0.005609999999999893,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly 50% (1.26451)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1709856720000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1709904900000,
+      "entryTimeframe": "5m",
+      "entry": 1.28691,
+      "stopLoss": 1.2817800000000001,
+      "takeProfit": 1.3022999999999996,
+      "risk": 0.005129999999999857,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA",
+        "at quarterly high (1.28272)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1710166320000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1710420000000,
+      "entryTimeframe": "5m",
+      "entry": 1.28125,
+      "stopLoss": 1.27987,
+      "takeProfit": 1.2853899999999998,
+      "risk": 0.0013799999999999368,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1710420540000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1716303900000,
+      "entryTimeframe": "5m",
+      "entry": 1.27223,
+      "stopLoss": 1.26813,
+      "takeProfit": 1.28453,
+      "risk": 0.0040999999999999925,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.2709)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1716530400000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1716554400000,
+      "entryTimeframe": "5m",
+      "entry": 1.2720699999999998,
+      "stopLoss": 1.27084,
+      "takeProfit": 1.2757599999999993,
+      "risk": 0.0012299999999998423,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at monthly high (1.2709)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1716570240000,
+    "realizedR": 0.9390243902442172
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1716813600000,
+      "entryTimeframe": "5m",
+      "entry": 1.27538,
+      "stopLoss": 1.27287,
+      "takeProfit": 1.28291,
+      "risk": 0.0025100000000000122,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1716918540000,
+    "realizedR": 0.3605577689242746
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1717591800000,
+      "entryTimeframe": "5m",
+      "entry": 1.2792,
+      "stopLoss": 1.2761500000000001,
+      "takeProfit": 1.2883499999999992,
+      "risk": 0.003049999999999775,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (1.28005)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1717596600000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1718195700000,
+      "entryTimeframe": "5m",
+      "entry": 1.28351,
+      "stopLoss": 1.27498,
+      "takeProfit": 1.3090999999999997,
+      "risk": 0.008529999999999927,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at monthly high (1.28005)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1718294880000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1720182900000,
+      "entryTimeframe": "5m",
+      "entry": 1.2799299999999998,
+      "stopLoss": 1.2777800000000001,
+      "takeProfit": 1.2863799999999987,
+      "risk": 0.002149999999999652,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1720462200000,
+    "realizedR": 0.6441860465121311
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1720624200000,
+      "entryTimeframe": "5m",
+      "entry": 1.2837699999999999,
+      "stopLoss": 1.2800200000000002,
+      "takeProfit": 1.295019999999999,
+      "risk": 0.003749999999999698,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1720778400000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1720792200000,
+      "entryTimeframe": "5m",
+      "entry": 1.29674,
+      "stopLoss": 1.29257,
+      "takeProfit": 1.30925,
+      "risk": 0.004170000000000007,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1721293680000,
+    "realizedR": 0.3441247002398256
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1721827800000,
+      "entryTimeframe": "5m",
+      "entry": 1.2925099999999998,
+      "stopLoss": 1.28948,
+      "takeProfit": 1.3015999999999994,
+      "risk": 0.003029999999999866,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1721866020000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1723734300000,
+      "entryTimeframe": "5m",
+      "entry": 1.2860399999999998,
+      "stopLoss": 1.2793400000000001,
+      "takeProfit": 1.306139999999999,
+      "risk": 0.006699999999999706,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at quarterly high (1.28604)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1724249100000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1724330700000,
+      "entryTimeframe": "5m",
+      "entry": 1.31148,
+      "stopLoss": 1.30989,
+      "takeProfit": 1.31625,
+      "risk": 0.0015899999999999803,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1724334960000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1724421600000,
+      "entryTimeframe": "5m",
+      "entry": 1.31235,
+      "stopLoss": 1.3110300000000001,
+      "takeProfit": 1.3163099999999992,
+      "risk": 0.0013199999999997658,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1724421720000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1724764200000,
+      "entryTimeframe": "5m",
+      "entry": 1.32208,
+      "stopLoss": 1.32082,
+      "takeProfit": 1.3258599999999994,
+      "risk": 0.0012599999999998168,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1724772780000,
+    "realizedR": 0.1825396825400238
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1725546000000,
+      "entryTimeframe": "5m",
+      "entry": 1.3169899999999999,
+      "stopLoss": 1.31482,
+      "takeProfit": 1.3234999999999992,
+      "risk": 0.002169999999999783,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1725625920000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1726237500000,
+      "entryTimeframe": "5m",
+      "entry": 1.3149,
+      "stopLoss": 1.31094,
+      "takeProfit": 1.3267799999999998,
+      "risk": 0.0039599999999999635,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1726586400000,
+    "realizedR": 0.532828282828358
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1726759200000,
+      "entryTimeframe": "5m",
+      "entry": 1.3262399999999999,
+      "stopLoss": 1.32146,
+      "takeProfit": 1.3405799999999992,
+      "risk": 0.004779999999999784,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (1.32657)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1726845660000,
+    "realizedR": 0.1276150627616048
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1727099400000,
+      "entryTimeframe": "5m",
+      "entry": 1.3325399999999998,
+      "stopLoss": 1.3294000000000001,
+      "takeProfit": 1.341959999999999,
+      "risk": 0.0031399999999996986,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1727218200000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1727357700000,
+      "entryTimeframe": "5m",
+      "entry": 1.3373199999999998,
+      "stopLoss": 1.33478,
+      "takeProfit": 1.3449399999999991,
+      "risk": 0.0025399999999997647,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1727399820000,
+    "realizedR": 0.8976377952758721
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1727443800000,
+      "entryTimeframe": "5m",
+      "entry": 1.3416899999999998,
+      "stopLoss": 1.33746,
+      "takeProfit": 1.354379999999999,
+      "risk": 0.004229999999999734,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1727461860000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1727711100000,
+      "entryTimeframe": "5m",
+      "entry": 1.3399699999999999,
+      "stopLoss": 1.33548,
+      "takeProfit": 1.3534399999999995,
+      "risk": 0.004489999999999883,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1727720400000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1735828200000,
+      "entryTimeframe": "5m",
+      "entry": 1.23995,
+      "stopLoss": 1.2461799999999998,
+      "takeProfit": 1.221260000000001,
+      "risk": 0.006229999999999736,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1736151180000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1736352600000,
+      "entryTimeframe": "5m",
+      "entry": 1.2335500000000001,
+      "stopLoss": 1.23575,
+      "takeProfit": 1.2269500000000009,
+      "risk": 0.0021999999999997577,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1736353440000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1736432400000,
+      "entryTimeframe": "5m",
+      "entry": 1.2297200000000001,
+      "stopLoss": 1.23279,
+      "takeProfit": 1.2205100000000004,
+      "risk": 0.003069999999999906,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1736515980000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1736861700000,
+      "entryTimeframe": "5m",
+      "entry": 1.21537,
+      "stopLoss": 1.2198,
+      "takeProfit": 1.2020800000000003,
+      "risk": 0.004429999999999934,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1736869440000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1737036300000,
+      "entryTimeframe": "5m",
+      "entry": 1.21902,
+      "stopLoss": 1.22174,
+      "takeProfit": 1.2108599999999998,
+      "risk": 0.0027200000000000557,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1737040140000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "sell",
+      "time": 1737121800000,
+      "entryTimeframe": "5m",
+      "entry": 1.21829,
+      "stopLoss": 1.22214,
+      "takeProfit": 1.2067400000000004,
+      "risk": 0.003849999999999909,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1737126300000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1743685800000,
+      "entryTimeframe": "5m",
+      "entry": 1.31791,
+      "stopLoss": 1.31326,
+      "takeProfit": 1.3318599999999994,
+      "risk": 0.004649999999999821,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1743693540000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1744375500000,
+      "entryTimeframe": "5m",
+      "entry": 1.31009,
+      "stopLoss": 1.3051000000000001,
+      "takeProfit": 1.3250599999999995,
+      "risk": 0.004989999999999828,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1744383660000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1744725900000,
+      "entryTimeframe": "5m",
+      "entry": 1.32311,
+      "stopLoss": 1.3213300000000001,
+      "takeProfit": 1.3284499999999997,
+      "risk": 0.0017799999999998928,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1744726260000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1744727400000,
+      "entryTimeframe": "5m",
+      "entry": 1.3228199999999999,
+      "stopLoss": 1.3213300000000001,
+      "takeProfit": 1.3272899999999992,
+      "risk": 0.0014899999999997693,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1744733820000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1744812300000,
+      "entryTimeframe": "5m",
+      "entry": 1.3266399999999998,
+      "stopLoss": 1.32451,
+      "takeProfit": 1.333029999999999,
+      "risk": 0.002129999999999743,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1744813080000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1744982400000,
+      "entryTimeframe": "5m",
+      "entry": 1.3276999999999999,
+      "stopLoss": 1.3261100000000001,
+      "takeProfit": 1.3324699999999992,
+      "risk": 0.0015899999999997583,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1745193900000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1745243100000,
+      "entryTimeframe": "5m",
+      "entry": 1.3395899999999998,
+      "stopLoss": 1.33761,
+      "takeProfit": 1.3455299999999994,
+      "risk": 0.0019799999999998708,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1745251920000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1745853600000,
+      "entryTimeframe": "5m",
+      "entry": 1.3386099999999999,
+      "stopLoss": 1.33327,
+      "takeProfit": 1.3546299999999996,
+      "risk": 0.0053399999999999,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1746019620000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1746198300000,
+      "entryTimeframe": "5m",
+      "entry": 1.33282,
+      "stopLoss": 1.33046,
+      "takeProfit": 1.3398999999999996,
+      "risk": 0.0023599999999999177,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1746199320000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1746538500000,
+      "entryTimeframe": "5m",
+      "entry": 1.33887,
+      "stopLoss": 1.33024,
+      "takeProfit": 1.3647599999999998,
+      "risk": 0.008629999999999916,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1746643620000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1747226700000,
+      "entryTimeframe": "5m",
+      "entry": 1.3334599999999999,
+      "stopLoss": 1.33216,
+      "takeProfit": 1.3373599999999994,
+      "risk": 0.0012999999999998568,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1747227600000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1747230600000,
+      "entryTimeframe": "5m",
+      "entry": 1.33256,
+      "stopLoss": 1.3310600000000001,
+      "takeProfit": 1.3370599999999995,
+      "risk": 0.0014999999999998348,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1747231260000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1747835100000,
+      "entryTimeframe": "5m",
+      "entry": 1.34283,
+      "stopLoss": 1.33951,
+      "takeProfit": 1.35279,
+      "risk": 0.0033199999999999896,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.34438)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1747904820000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1748350500000,
+      "entryTimeframe": "5m",
+      "entry": 1.3558599999999998,
+      "stopLoss": 1.35284,
+      "takeProfit": 1.3649199999999992,
+      "risk": 0.0030199999999998006,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1748356440000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1748869200000,
+      "entryTimeframe": "5m",
+      "entry": 1.35435,
+      "stopLoss": 1.3521800000000002,
+      "takeProfit": 1.3608599999999993,
+      "risk": 0.002169999999999783,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1748870700000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1748879400000,
+      "entryTimeframe": "5m",
+      "entry": 1.3554199999999998,
+      "stopLoss": 1.35131,
+      "takeProfit": 1.3677499999999994,
+      "risk": 0.004109999999999836,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1748929500000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1749128100000,
+      "entryTimeframe": "5m",
+      "entry": 1.35805,
+      "stopLoss": 1.35644,
+      "takeProfit": 1.3628799999999996,
+      "risk": 0.0016099999999998893,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA",
+        "at monthly high (1.35929)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1749132300000,
+    "realizedR": 0.7111801242237592
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1749134100000,
+      "entryTimeframe": "5m",
+      "entry": 1.36018,
+      "stopLoss": 1.3565800000000001,
+      "takeProfit": 1.3709799999999994,
+      "risk": 0.0035999999999998256,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at monthly high (1.35929)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1749176460000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1749732000000,
+      "entryTimeframe": "5m",
+      "entry": 1.3615,
+      "stopLoss": 1.35741,
+      "takeProfit": 1.3737699999999997,
+      "risk": 0.004089999999999927,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (1.35929)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1749774960000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1750077600000,
+      "entryTimeframe": "5m",
+      "entry": 1.35831,
+      "stopLoss": 1.3570600000000002,
+      "takeProfit": 1.3620599999999992,
+      "risk": 0.0012499999999997513,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA",
+        "at monthly high (1.35929)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1750082820000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1750084200000,
+      "entryTimeframe": "5m",
+      "entry": 1.36137,
+      "stopLoss": 1.35684,
+      "takeProfit": 1.3749599999999997,
+      "risk": 0.004529999999999923,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.35929)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1750107840000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1750773600000,
+      "entryTimeframe": "5m",
+      "entry": 1.3599899999999998,
+      "stopLoss": 1.35991,
+      "takeProfit": 1.3602299999999994,
+      "risk": 0.00007999999999985796,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at monthly high (1.35929)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1750773600000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1750773900000,
+      "entryTimeframe": "5m",
+      "entry": 1.3607099999999999,
+      "stopLoss": 1.35856,
+      "takeProfit": 1.3671599999999995,
+      "risk": 0.0021499999999998742,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at monthly high (1.35929)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1750780020000,
+    "realizedR": 0.40232558139552943
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1751027700000,
+      "entryTimeframe": "5m",
+      "entry": 1.3744399999999999,
+      "stopLoss": 1.3727,
+      "takeProfit": 1.3796599999999994,
+      "risk": 0.0017399999999998528,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1751029920000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1755002400000,
+      "entryTimeframe": "5m",
+      "entry": 1.3498199999999998,
+      "stopLoss": 1.3441,
+      "takeProfit": 1.366979999999999,
+      "risk": 0.005719999999999725,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly 50% (1.34869)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1755535920000,
+    "realizedR": 0.18356643356655802
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1756211700000,
+      "entryTimeframe": "5m",
+      "entry": 1.3488699999999998,
+      "stopLoss": 1.3467,
+      "takeProfit": 1.3553799999999991,
+      "risk": 0.002169999999999783,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA",
+        "at monthly 50% (1.34869)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1756242360000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1756385100000,
+      "entryTimeframe": "5m",
+      "entry": 1.35164,
+      "stopLoss": 1.34945,
+      "takeProfit": 1.3582099999999997,
+      "risk": 0.0021899999999999142,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1756387620000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1756396800000,
+      "entryTimeframe": "5m",
+      "entry": 1.35158,
+      "stopLoss": 1.3483800000000001,
+      "takeProfit": 1.3611799999999996,
+      "risk": 0.0031999999999998696,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1756452540000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1757346600000,
+      "entryTimeframe": "5m",
+      "entry": 1.3541999999999998,
+      "stopLoss": 1.3525500000000001,
+      "takeProfit": 1.359149999999999,
+      "risk": 0.0016499999999997073,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1757418660000,
+    "realizedR": 1.4212121212126676
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1757603400000,
+      "entryTimeframe": "5m",
+      "entry": 1.3560699999999999,
+      "stopLoss": 1.34869,
+      "takeProfit": 1.3782099999999997,
+      "risk": 0.007379999999999942,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1758158100000,
+    "realizedR": 0.7411924119241667
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1765805700000,
+      "entryTimeframe": "5m",
+      "entry": 1.33926,
+      "stopLoss": 1.33779,
+      "takeProfit": 1.3436699999999995,
+      "risk": 0.0014699999999998603,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1765816440000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1765895100000,
+      "entryTimeframe": "5m",
+      "entry": 1.3428799999999999,
+      "stopLoss": 1.34214,
+      "takeProfit": 1.345099999999999,
+      "risk": 0.0007399999999997409,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1765897380000,
+    "realizedR": 1.0270270270278137
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1765901700000,
+      "entryTimeframe": "5m",
+      "entry": 1.34238,
+      "stopLoss": 1.3398700000000001,
+      "takeProfit": 1.3499099999999993,
+      "risk": 0.00250999999999979,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1765945620000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1766412900000,
+      "entryTimeframe": "5m",
+      "entry": 1.34388,
+      "stopLoss": 1.34209,
+      "takeProfit": 1.3492499999999998,
+      "risk": 0.0017899999999999583,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1766467380000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1767026700000,
+      "entryTimeframe": "5m",
+      "entry": 1.3496899999999998,
+      "stopLoss": 1.34807,
+      "takeProfit": 1.354549999999999,
+      "risk": 0.0016199999999997328,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1767094740000,
+    "realizedR": 0.5802469135805802
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1767631500000,
+      "entryTimeframe": "5m",
+      "entry": 1.3520599999999998,
+      "stopLoss": 1.34198,
+      "takeProfit": 1.3822999999999994,
+      "risk": 0.010079999999999867,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.3534)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1767880320000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1769175900000,
+      "entryTimeframe": "5m",
+      "entry": 1.3531499999999999,
+      "stopLoss": 1.35088,
+      "takeProfit": 1.3599599999999992,
+      "risk": 0.002269999999999772,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at monthly high (1.3534)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1769188320000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1769522700000,
+      "entryTimeframe": "5m",
+      "entry": 1.37381,
+      "stopLoss": 1.3658700000000001,
+      "takeProfit": 1.3976299999999995,
+      "risk": 0.007939999999999836,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1769613420000,
+    "realizedR": 0.14861460957184222
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1776096000000,
+      "entryTimeframe": "5m",
+      "entry": 1.3458999999999999,
+      "stopLoss": 1.34107,
+      "takeProfit": 1.3603899999999995,
+      "risk": 0.00482999999999989,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1776349320000,
+    "realizedR": 1.3074534161491587
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1776957900000,
+      "entryTimeframe": "5m",
+      "entry": 1.3508499999999999,
+      "stopLoss": 1.3473300000000001,
+      "takeProfit": 1.3614099999999991,
+      "risk": 0.0035199999999997456,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 5m 20 SMA",
+        "at quarterly 50% (1.3513950000000001)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1776964140000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1777035600000,
+      "entryTimeframe": "5m",
+      "entry": 1.3502399999999999,
+      "stopLoss": 1.34551,
+      "takeProfit": 1.3644299999999996,
+      "risk": 0.004729999999999901,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at quarterly 50% (1.3513950000000001)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1777358820000,
+    "realizedR": 0.05179704016919195
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1777554600000,
+      "entryTimeframe": "5m",
+      "entry": 1.35168,
+      "stopLoss": 1.34934,
+      "takeProfit": 1.3587,
+      "risk": 0.0023400000000000087,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 5m 20 SMA",
+        "at quarterly 50% (1.3513950000000001)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1777561020000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1778160900000,
+      "entryTimeframe": "5m",
+      "entry": 1.36286,
+      "stopLoss": 1.36042,
+      "takeProfit": 1.37018,
+      "risk": 0.0024399999999999977,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.36119)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1778169840000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1778244000000,
+      "entryTimeframe": "5m",
+      "entry": 1.3623699999999999,
+      "stopLoss": 1.35952,
+      "takeProfit": 1.3709199999999993,
+      "risk": 0.002849999999999797,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.36119)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1778446800000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "GBPUSD",
+      "direction": "buy",
+      "time": 1778503500000,
+      "entryTimeframe": "5m",
+      "entry": 1.36123,
+      "stopLoss": 1.3580400000000001,
+      "takeProfit": 1.3707999999999994,
+      "risk": 0.003189999999999804,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.36119)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1778550060000,
+    "realizedR": -1
+  }
+]

@@ -1,0 +1,1187 @@
+[
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1662469200000,
+      "entryTimeframe": "15m",
+      "entry": 0.98991,
+      "stopLoss": 0.99347,
+      "takeProfit": 0.9792299999999999,
+      "risk": 0.0035600000000000076,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at monthly low (0.99002)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1662560700000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1663941600000,
+      "entryTimeframe": "15m",
+      "entry": 0.97329,
+      "stopLoss": 0.9773499999999999,
+      "takeProfit": 0.9611100000000001,
+      "risk": 0.0040599999999999525,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1664153880000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1664803800000,
+      "entryTimeframe": "15m",
+      "entry": 0.97724,
+      "stopLoss": 0.97908,
+      "takeProfit": 0.9717200000000001,
+      "risk": 0.0018399999999999528,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1664805720000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1665061200000,
+      "entryTimeframe": "15m",
+      "entry": 0.98673,
+      "stopLoss": 0.9897999999999999,
+      "takeProfit": 0.9775200000000003,
+      "risk": 0.003069999999999906,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 15m 20 SMA",
+        "at daily open",
+        "at monthly 50% (0.98667)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1665123960000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1665146700000,
+      "entryTimeframe": "15m",
+      "entry": 0.97521,
+      "stopLoss": 0.98095,
+      "takeProfit": 0.9579900000000001,
+      "risk": 0.005739999999999967,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1665672600000,
+    "realizedR": 0.601045296167262
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1667480400000,
+      "entryTimeframe": "15m",
+      "entry": 0.97397,
+      "stopLoss": 0.9768399999999999,
+      "takeProfit": 0.9653600000000002,
+      "risk": 0.002869999999999928,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1667485200000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1680618600000,
+      "entryTimeframe": "15m",
+      "entry": 1.09564,
+      "stopLoss": 1.08817,
+      "takeProfit": 1.1180499999999995,
+      "risk": 0.007469999999999866,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (1.09296)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1680871020000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1682004600000,
+      "entryTimeframe": "15m",
+      "entry": 1.09718,
+      "stopLoss": 1.09595,
+      "takeProfit": 1.1008700000000002,
+      "risk": 0.0012300000000000644,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1682016180000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1682341200000,
+      "entryTimeframe": "15m",
+      "entry": 1.10238,
+      "stopLoss": 1.09941,
+      "takeProfit": 1.1112899999999997,
+      "risk": 0.002969999999999917,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at quarterly high (1.10327)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1682431740000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1682697600000,
+      "entryTimeframe": "15m",
+      "entry": 1.10404,
+      "stopLoss": 1.09857,
+      "takeProfit": 1.1204499999999995,
+      "risk": 0.005469999999999864,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at quarterly high (1.10327)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1682951220000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1683119700000,
+      "entryTimeframe": "15m",
+      "entry": 1.10419,
+      "stopLoss": 1.1017000000000001,
+      "takeProfit": 1.1116599999999996,
+      "risk": 0.002489999999999881,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at quarterly high (1.10327)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1683137400000,
+    "realizedR": 0.49598393574303457
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1685973600000,
+      "entryTimeframe": "15m",
+      "entry": 1.06792,
+      "stopLoss": 1.0704,
+      "takeProfit": 1.0604799999999999,
+      "risk": 0.0024800000000000377,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1685973660000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1686061800000,
+      "entryTimeframe": "15m",
+      "entry": 1.06768,
+      "stopLoss": 1.06876,
+      "takeProfit": 1.06444,
+      "risk": 0.0010799999999999699,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1686063180000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1688391000000,
+      "entryTimeframe": "15m",
+      "entry": 1.09145,
+      "stopLoss": 1.08873,
+      "takeProfit": 1.0996100000000002,
+      "risk": 0.0027200000000000557,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1688497080000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1689170400000,
+      "entryTimeframe": "15m",
+      "entry": 1.10988,
+      "stopLoss": 1.10086,
+      "takeProfit": 1.13694,
+      "risk": 0.009020000000000028,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at quarterly high (1.10952)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1689867240000,
+    "realizedR": 0.4600886917959937
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1696257900000,
+      "entryTimeframe": "15m",
+      "entry": 1.04959,
+      "stopLoss": 1.05325,
+      "takeProfit": 1.03861,
+      "risk": 0.0036599999999999966,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at monthly low (1.0488)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1696516020000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1697208300000,
+      "entryTimeframe": "15m",
+      "entry": 1.0505,
+      "stopLoss": 1.05349,
+      "takeProfit": 1.0415299999999998,
+      "risk": 0.002990000000000048,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at monthly low (1.0488)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1697439300000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1703171700000,
+      "entryTimeframe": "15m",
+      "entry": 1.09879,
+      "stopLoss": 1.09674,
+      "takeProfit": 1.1049399999999996,
+      "risk": 0.0020499999999998852,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1703251920000,
+    "realizedR": 0.9390243902440412
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1703255400000,
+      "entryTimeframe": "15m",
+      "entry": 1.10296,
+      "stopLoss": 1.09966,
+      "takeProfit": 1.1128599999999995,
+      "risk": 0.0032999999999998586,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.10171)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1703465700000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1703605500000,
+      "entryTimeframe": "15m",
+      "entry": 1.1029,
+      "stopLoss": 1.10088,
+      "takeProfit": 1.1089599999999997,
+      "risk": 0.0020199999999999108,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.10171)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1703688840000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1708957800000,
+      "entryTimeframe": "15m",
+      "entry": 1.0850899999999999,
+      "stopLoss": 1.08433,
+      "takeProfit": 1.0873699999999995,
+      "risk": 0.0007599999999998719,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1708959780000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1708965900000,
+      "entryTimeframe": "15m",
+      "entry": 1.0852,
+      "stopLoss": 1.08336,
+      "takeProfit": 1.0907199999999995,
+      "risk": 0.0018399999999998418,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1709048340000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1709562600000,
+      "entryTimeframe": "15m",
+      "entry": 1.08514,
+      "stopLoss": 1.08351,
+      "takeProfit": 1.09003,
+      "risk": 0.0016300000000000203,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1709664660000,
+    "realizedR": 0.00920245398765401
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1709739000000,
+      "entryTimeframe": "15m",
+      "entry": 1.08913,
+      "stopLoss": 1.0862500000000002,
+      "takeProfit": 1.0977699999999992,
+      "risk": 0.0028799999999997716,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1.08974)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1709905260000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1710339300000,
+      "entryTimeframe": "15m",
+      "entry": 1.09361,
+      "stopLoss": 1.0928600000000002,
+      "takeProfit": 1.0958599999999994,
+      "risk": 0.0007499999999998064,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1710349740000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1717424100000,
+      "entryTimeframe": "15m",
+      "entry": 1.08805,
+      "stopLoss": 1.08355,
+      "takeProfit": 1.1015499999999998,
+      "risk": 0.0044999999999999485,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at quarterly 50% (1.08698)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1717763520000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1722870000000,
+      "entryTimeframe": "15m",
+      "entry": 1.09803,
+      "stopLoss": 1.0928,
+      "takeProfit": 1.1137200000000003,
+      "risk": 0.005230000000000068,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1722929880000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1723216500000,
+      "entryTimeframe": "15m",
+      "entry": 1.0925799999999999,
+      "stopLoss": 1.0904,
+      "takeProfit": 1.0991199999999994,
+      "risk": 0.0021799999999998487,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at quarterly high (1.0916)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1723573740000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1723643100000,
+      "entryTimeframe": "15m",
+      "entry": 1.10422,
+      "stopLoss": 1.09989,
+      "takeProfit": 1.1172099999999998,
+      "risk": 0.004329999999999945,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1723725000000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1724157900000,
+      "entryTimeframe": "15m",
+      "entry": 1.1087,
+      "stopLoss": 1.1071600000000001,
+      "takeProfit": 1.1133199999999996,
+      "risk": 0.0015399999999998748,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1724248800000,
+    "realizedR": 1.4545454545457297
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1725543000000,
+      "entryTimeframe": "15m",
+      "entry": 1.11073,
+      "stopLoss": 1.1082100000000001,
+      "takeProfit": 1.1182899999999996,
+      "risk": 0.0025199999999998557,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1725547140000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1726668000000,
+      "entryTimeframe": "15m",
+      "entry": 1.11362,
+      "stopLoss": 1.1112900000000001,
+      "takeProfit": 1.1206099999999999,
+      "risk": 0.0023299999999999432,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1726669860000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1727365500000,
+      "entryTimeframe": "15m",
+      "entry": 1.11864,
+      "stopLoss": 1.1120700000000001,
+      "takeProfit": 1.13835,
+      "risk": 0.006569999999999965,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (1.12015)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1727720100000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1734965100000,
+      "entryTimeframe": "15m",
+      "entry": 1.03963,
+      "stopLoss": 1.04134,
+      "takeProfit": 1.0345000000000004,
+      "risk": 0.0017099999999998783,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1734973560000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1735047900000,
+      "entryTimeframe": "15m",
+      "entry": 1.03935,
+      "stopLoss": 1.04086,
+      "takeProfit": 1.0348200000000003,
+      "risk": 0.0015099999999999003,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1735050600000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1735663500000,
+      "entryTimeframe": "15m",
+      "entry": 1.03469,
+      "stopLoss": 1.03941,
+      "takeProfit": 1.0205300000000006,
+      "risk": 0.0047199999999998354,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at monthly low (1.03325)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1735895400000,
+    "realizedR": 1.1101694915255378
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1736345700000,
+      "entryTimeframe": "15m",
+      "entry": 1.02977,
+      "stopLoss": 1.03051,
+      "takeProfit": 1.0275500000000002,
+      "risk": 0.0007399999999999629,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1736348760000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "sell",
+      "time": 1737039600000,
+      "entryTimeframe": "15m",
+      "entry": 1.0278100000000001,
+      "stopLoss": 1.02901,
+      "takeProfit": 1.0242100000000005,
+      "risk": 0.0011999999999998678,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1737039900000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1744813800000,
+      "entryTimeframe": "15m",
+      "entry": 1.13645,
+      "stopLoss": 1.1335300000000001,
+      "takeProfit": 1.1452099999999994,
+      "risk": 0.0029199999999998116,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1744851360000,
+    "realizedR": 0.15068493150693368
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1746544500000,
+      "entryTimeframe": "15m",
+      "entry": 1.13444,
+      "stopLoss": 1.13211,
+      "takeProfit": 1.1414299999999997,
+      "risk": 0.0023299999999999432,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1746569220000,
+    "realizedR": 0.062231759656680374
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1746629100000,
+      "entryTimeframe": "15m",
+      "entry": 1.13689,
+      "stopLoss": 1.13477,
+      "takeProfit": 1.1432499999999997,
+      "risk": 0.0021199999999998997,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1746631380000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1747836000000,
+      "entryTimeframe": "15m",
+      "entry": 1.13378,
+      "stopLoss": 1.1312200000000001,
+      "takeProfit": 1.1414599999999997,
+      "risk": 0.0025599999999998957,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1747868520000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1748004300000,
+      "entryTimeframe": "15m",
+      "entry": 1.13493,
+      "stopLoss": 1.12923,
+      "takeProfit": 1.15203,
+      "risk": 0.005700000000000038,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1748445420000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1748880000000,
+      "entryTimeframe": "15m",
+      "entry": 1.14314,
+      "stopLoss": 1.13992,
+      "takeProfit": 1.1528,
+      "risk": 0.0032200000000000006,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at monthly high (1.14185)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1748946600000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1749559500000,
+      "entryTimeframe": "15m",
+      "entry": 1.1434,
+      "stopLoss": 1.13679,
+      "takeProfit": 1.16323,
+      "risk": 0.006610000000000005,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (1.14185)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1749783960000,
+    "realizedR": 1.4818456883510156
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1750078800000,
+      "entryTimeframe": "15m",
+      "entry": 1.15848,
+      "stopLoss": 1.15646,
+      "takeProfit": 1.1645399999999997,
+      "risk": 0.0020199999999999108,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1750102860000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1750167900000,
+      "entryTimeframe": "15m",
+      "entry": 1.15631,
+      "stopLoss": 1.15426,
+      "takeProfit": 1.1624599999999996,
+      "risk": 0.0020499999999998852,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1750170060000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1751031900000,
+      "entryTimeframe": "15m",
+      "entry": 1.17287,
+      "stopLoss": 1.16979,
+      "takeProfit": 1.18211,
+      "risk": 0.0030799999999999716,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1751046840000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1751293800000,
+      "entryTimeframe": "15m",
+      "entry": 1.17363,
+      "stopLoss": 1.17025,
+      "takeProfit": 1.1837699999999998,
+      "risk": 0.0033799999999999386,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1751380860000,
+    "realizedR": 1.2662721893491535
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1751643000000,
+      "entryTimeframe": "15m",
+      "entry": 1.17831,
+      "stopLoss": 1.1770100000000001,
+      "takeProfit": 1.1822099999999995,
+      "risk": 0.0012999999999998568,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (1.17881)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1751852700000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1755099000000,
+      "entryTimeframe": "15m",
+      "entry": 1.17172,
+      "stopLoss": 1.1687800000000002,
+      "takeProfit": 1.18054,
+      "risk": 0.0029399999999999427,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1755154380000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1755261900000,
+      "entryTimeframe": "15m",
+      "entry": 1.16956,
+      "stopLoss": 1.16764,
+      "takeProfit": 1.1753199999999997,
+      "risk": 0.0019199999999999218,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1755504060000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1756477800000,
+      "entryTimeframe": "15m",
+      "entry": 1.16864,
+      "stopLoss": 1.16457,
+      "takeProfit": 1.1808499999999993,
+      "risk": 0.004069999999999796,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1756799820000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1757335500000,
+      "entryTimeframe": "15m",
+      "entry": 1.17356,
+      "stopLoss": 1.17195,
+      "takeProfit": 1.1783899999999996,
+      "risk": 0.0016099999999998893,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA",
+        "at monthly high (1.17425)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1757403840000,
+    "realizedR": 1.251552795031342
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1757603700000,
+      "entryTimeframe": "15m",
+      "entry": 1.17375,
+      "stopLoss": 1.1653900000000001,
+      "takeProfit": 1.1988299999999998,
+      "risk": 0.008359999999999923,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (1.17425)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1758171660000,
+    "realizedR": 0.6662679425837471
+  },
+  {
+    "signal": {
+      "pair": "EURUSD",
+      "direction": "buy",
+      "time": 1758549600000,
+      "entryTimeframe": "15m",
+      "entry": 1.17775,
+      "stopLoss": 1.1768100000000001,
+      "takeProfit": 1.18057,
+      "risk": 0.0009399999999999409,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at quarterly high (1.17881)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1758550260000,
+    "realizedR": -1
+  }
+]

@@ -1,4 +1,11 @@
 node_modules/
-data/
 *.tsbuildinfo
 .dukascopy-cache/
+
+# Raw 1m candle history is ~90MB per pair — too big for git.
+# Published as assets on the `data-v1` GitHub Release instead; see README.
+# Leading slash matters: an unanchored `data/` also swallowed src/data/.
+/data/*
+# Derived backtest output is small and worth versioning.
+!/data/backtest-*.json
+!/data/exit-variants-*.json

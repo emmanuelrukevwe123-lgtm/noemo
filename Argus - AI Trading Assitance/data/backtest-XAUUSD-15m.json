@@ -1,0 +1,2986 @@
+[
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "sell",
+      "time": 1662036300000,
+      "entryTimeframe": "15m",
+      "entry": 1695.278,
+      "stopLoss": 1704.318,
+      "takeProfit": 1668.1580000000001,
+      "risk": 9.039999999999964,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1662105180000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "sell",
+      "time": 1662651000000,
+      "entryTimeframe": "15m",
+      "entry": 1707.584,
+      "stopLoss": 1716.558,
+      "takeProfit": 1680.6620000000003,
+      "risk": 8.973999999999933,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at monthly low (1709.514)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1662687720000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "sell",
+      "time": 1663246800000,
+      "entryTimeframe": "15m",
+      "entry": 1687.1480000000001,
+      "stopLoss": 1687.808,
+      "takeProfit": 1685.1680000000006,
+      "risk": 0.6599999999998545,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1663247040000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "sell",
+      "time": 1663679700000,
+      "entryTimeframe": "15m",
+      "entry": 1666.038,
+      "stopLoss": 1670.675,
+      "takeProfit": 1652.1270000000002,
+      "risk": 4.636999999999944,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1663740900000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "sell",
+      "time": 1663940700000,
+      "entryTimeframe": "15m",
+      "entry": 1647.325,
+      "stopLoss": 1658.29,
+      "takeProfit": 1614.4300000000003,
+      "risk": 10.964999999999918,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1664154420000,
+    "realizedR": 0.3975832193342714
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "sell",
+      "time": 1665754200000,
+      "entryTimeframe": "15m",
+      "entry": 1654.218,
+      "stopLoss": 1660.756,
+      "takeProfit": 1634.604,
+      "risk": 6.538000000000011,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1665970260000,
+    "realizedR": 0.6601407158152377
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "sell",
+      "time": 1666103400000,
+      "entryTimeframe": "15m",
+      "entry": 1649.317,
+      "stopLoss": 1657.728,
+      "takeProfit": 1624.0839999999998,
+      "risk": 8.411000000000058,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1666231020000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "sell",
+      "time": 1666966500000,
+      "entryTimeframe": "15m",
+      "entry": 1644.528,
+      "stopLoss": 1653.427,
+      "takeProfit": 1617.8310000000004,
+      "risk": 8.898999999999887,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1667284260000,
+    "realizedR": 0.07894145409597808
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "sell",
+      "time": 1667481300000,
+      "entryTimeframe": "15m",
+      "entry": 1619.798,
+      "stopLoss": 1625.488,
+      "takeProfit": 1602.7279999999998,
+      "risk": 5.690000000000055,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-up",
+        "at 15m 20 SMA",
+        "at monthly low (1617.067)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1667485500000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1673275500000,
+      "entryTimeframe": "15m",
+      "entry": 1877.2549999999999,
+      "stopLoss": 1872.165,
+      "takeProfit": 1892.5249999999996,
+      "risk": 5.089999999999918,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1673278620000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1673531100000,
+      "entryTimeframe": "15m",
+      "entry": 1892.185,
+      "stopLoss": 1884.148,
+      "takeProfit": 1916.296,
+      "risk": 8.037000000000035,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1673534640000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1673621100000,
+      "entryTimeframe": "15m",
+      "entry": 1907.298,
+      "stopLoss": 1893.115,
+      "takeProfit": 1949.847,
+      "risk": 14.182999999999993,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1673938380000,
+    "realizedR": 0.022033420291898764
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1674055800000,
+      "entryTimeframe": "15m",
+      "entry": 1918.205,
+      "stopLoss": 1915.605,
+      "takeProfit": 1926.0049999999997,
+      "risk": 2.599999999999909,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1674056280000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1675260900000,
+      "entryTimeframe": "15m",
+      "entry": 1930.258,
+      "stopLoss": 1926.225,
+      "takeProfit": 1942.3570000000004,
+      "risk": 4.033000000000129,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1675263600000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1678976100000,
+      "entryTimeframe": "15m",
+      "entry": 1928.805,
+      "stopLoss": 1923.704,
+      "takeProfit": 1944.1080000000004,
+      "risk": 5.101000000000113,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1678978380000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1679063400000,
+      "entryTimeframe": "15m",
+      "entry": 1955.048,
+      "stopLoss": 1943.785,
+      "takeProfit": 1988.8369999999998,
+      "risk": 11.26299999999992,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (1959.625)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1679086680000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1679669100000,
+      "entryTimeframe": "15m",
+      "entry": 1997.385,
+      "stopLoss": 1985.265,
+      "takeProfit": 2033.7449999999997,
+      "risk": 12.11999999999989,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1679673660000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1680529500000,
+      "entryTimeframe": "15m",
+      "entry": 1980.144,
+      "stopLoss": 1962.448,
+      "takeProfit": 2033.2319999999997,
+      "risk": 17.695999999999913,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1680788640000,
+    "realizedR": 1.428571428571447
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1681227900000,
+      "entryTimeframe": "15m",
+      "entry": 2003.745,
+      "stopLoss": 1994.995,
+      "takeProfit": 2029.995,
+      "risk": 8.75,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (2009.695)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1681295160000,
+    "realizedR": 0.46948571428573427
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1681389900000,
+      "entryTimeframe": "15m",
+      "entry": 2037.5249999999999,
+      "stopLoss": 2024.875,
+      "takeProfit": 2075.4749999999995,
+      "risk": 12.649999999999864,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1681476240000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1682000100000,
+      "entryTimeframe": "15m",
+      "entry": 2010.665,
+      "stopLoss": 2002.375,
+      "takeProfit": 2035.5349999999999,
+      "risk": 8.289999999999964,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (2009.695)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1682002500000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1682005500000,
+      "entryTimeframe": "15m",
+      "entry": 2003.945,
+      "stopLoss": 1998.314,
+      "takeProfit": 2020.8379999999995,
+      "risk": 5.630999999999858,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at monthly high (2009.695)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1682055000000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1682518500000,
+      "entryTimeframe": "15m",
+      "entry": 2001.2849999999999,
+      "stopLoss": 1993.168,
+      "takeProfit": 2025.6359999999997,
+      "risk": 8.116999999999962,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1682524380000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1683121500000,
+      "entryTimeframe": "15m",
+      "entry": 2018.0639999999999,
+      "stopLoss": 2006.914,
+      "takeProfit": 2051.513999999999,
+      "risk": 11.149999999999864,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1683138720000,
+    "realizedR": 0.10358744394620756
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1683216000000,
+      "entryTimeframe": "15m",
+      "entry": 2051.145,
+      "stopLoss": 2042.785,
+      "takeProfit": 2076.2249999999995,
+      "risk": 8.3599999999999,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (2048.538)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1683271260000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1683723600000,
+      "entryTimeframe": "15m",
+      "entry": 2045.834,
+      "stopLoss": 2024.465,
+      "takeProfit": 2109.9410000000007,
+      "risk": 21.369000000000142,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (2048.538)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1683731400000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "sell",
+      "time": 1696255200000,
+      "entryTimeframe": "15m",
+      "entry": 1833.414,
+      "stopLoss": 1838.865,
+      "takeProfit": 1817.061,
+      "risk": 5.451000000000022,
+      "reasons": [
+        "bearish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bear-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1696299720000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1698930900000,
+      "entryTimeframe": "15m",
+      "entry": 1990.055,
+      "stopLoss": 1986.275,
+      "takeProfit": 2001.395,
+      "risk": 3.7799999999999727,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at quarterly high (1987.385)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1698931500000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1700577900000,
+      "entryTimeframe": "15m",
+      "entry": 2004.655,
+      "stopLoss": 1986.065,
+      "takeProfit": 2060.4249999999997,
+      "risk": 18.589999999999918,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (2009.395)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1701449640000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1702565100000,
+      "entryTimeframe": "15m",
+      "entry": 2047.965,
+      "stopLoss": 2026.945,
+      "takeProfit": 2111.0249999999996,
+      "risk": 21.019999999999982,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (2051.865)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1702647720000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1703003400000,
+      "entryTimeframe": "15m",
+      "entry": 2046.055,
+      "stopLoss": 2038.455,
+      "takeProfit": 2068.8550000000005,
+      "risk": 7.600000000000136,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (2051.865)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1703009400000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1703176200000,
+      "entryTimeframe": "15m",
+      "entry": 2044.7649999999999,
+      "stopLoss": 2036.075,
+      "takeProfit": 2070.834999999999,
+      "risk": 8.689999999999827,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (2051.865)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1703263260000,
+    "realizedR": 1.4643268124281492
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1703684700000,
+      "entryTimeframe": "15m",
+      "entry": 2068.5350000000003,
+      "stopLoss": 2063.795,
+      "takeProfit": 2082.755000000001,
+      "risk": 4.7400000000002365,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1703700120000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1704471300000,
+      "entryTimeframe": "15m",
+      "entry": 2055.9350000000004,
+      "stopLoss": 2023.755,
+      "takeProfit": 2152.4750000000013,
+      "risk": 32.18000000000029,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly 50% (2059.035)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1704712680000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1707319800000,
+      "entryTimeframe": "15m",
+      "entry": 2039.175,
+      "stopLoss": 2032.075,
+      "takeProfit": 2060.4749999999995,
+      "risk": 7.099999999999909,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly 50% (2040.29)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1707364560000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1708528500000,
+      "entryTimeframe": "15m",
+      "entry": 2029.7949999999998,
+      "stopLoss": 2027.075,
+      "takeProfit": 2037.9549999999992,
+      "risk": 2.7199999999998,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1708530420000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1708706700000,
+      "entryTimeframe": "15m",
+      "entry": 2037.5049999999999,
+      "stopLoss": 2023.565,
+      "takeProfit": 2079.3249999999994,
+      "risk": 13.939999999999827,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly 50% (2040.29)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1709311200000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1709658000000,
+      "entryTimeframe": "15m",
+      "entry": 2128.525,
+      "stopLoss": 2123.115,
+      "takeProfit": 2144.755000000001,
+      "risk": 5.410000000000309,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1709735640000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1709738100000,
+      "entryTimeframe": "15m",
+      "entry": 2141.5950000000003,
+      "stopLoss": 2130.845,
+      "takeProfit": 2173.8450000000016,
+      "risk": 10.750000000000455,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at quarterly high (2145.135)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1709822580000,
+    "realizedR": 0.6432558139533732
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1709830800000,
+      "entryTimeframe": "15m",
+      "entry": 2156.395,
+      "stopLoss": 2148.675,
+      "takeProfit": 2179.5549999999994,
+      "risk": 7.7199999999998,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1709904600000,
+    "realizedR": 0.39119170984456736
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1709911800000,
+      "entryTimeframe": "15m",
+      "entry": 2170.175,
+      "stopLoss": 2163.205,
+      "takeProfit": 2191.085000000001,
+      "risk": 6.970000000000255,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1709917500000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1711549800000,
+      "entryTimeframe": "15m",
+      "entry": 2192.4350000000004,
+      "stopLoss": 2182.935,
+      "takeProfit": 2220.9350000000018,
+      "risk": 9.500000000000455,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1711634100000,
+    "realizedR": 1.0831578947366907
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1711637100000,
+      "entryTimeframe": "15m",
+      "entry": 2212.068,
+      "stopLoss": 2201.594,
+      "takeProfit": 2243.4900000000007,
+      "risk": 10.47400000000016,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1711922400000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1712155500000,
+      "entryTimeframe": "15m",
+      "entry": 2283.9750000000004,
+      "stopLoss": 2271.035,
+      "takeProfit": 2322.795000000002,
+      "risk": 12.94000000000051,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1712232360000,
+    "realizedR": 0.10896445131366998
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1712672100000,
+      "entryTimeframe": "15m",
+      "entry": 2361.5950000000003,
+      "stopLoss": 2345.128,
+      "takeProfit": 2410.9960000000005,
+      "risk": 16.4670000000001,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1712673840000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1713283200000,
+      "entryTimeframe": "15m",
+      "entry": 2386.165,
+      "stopLoss": 2362.935,
+      "takeProfit": 2455.855,
+      "risk": 23.230000000000018,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1713372300000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1713444300000,
+      "entryTimeframe": "15m",
+      "entry": 2384.155,
+      "stopLoss": 2378.368,
+      "takeProfit": 2401.516000000001,
+      "risk": 5.787000000000262,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1713447360000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1713449700000,
+      "entryTimeframe": "15m",
+      "entry": 2382.4550000000004,
+      "stopLoss": 2374.795,
+      "takeProfit": 2405.4350000000013,
+      "risk": 7.660000000000309,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1713450660000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1713454200000,
+      "entryTimeframe": "15m",
+      "entry": 2384.348,
+      "stopLoss": 2368.968,
+      "takeProfit": 2430.4880000000003,
+      "risk": 15.38000000000011,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1713496140000,
+    "realizedR": 0.6714564369310596
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1716296400000,
+      "entryTimeframe": "15m",
+      "entry": 2426.425,
+      "stopLoss": 2411.558,
+      "takeProfit": 2471.0260000000007,
+      "risk": 14.86700000000019,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open",
+        "at monthly high (2431.385)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1716355020000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1720097100000,
+      "entryTimeframe": "15m",
+      "entry": 2358.568,
+      "stopLoss": 2355.785,
+      "takeProfit": 2366.9170000000013,
+      "risk": 2.7830000000003565,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1720106460000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1720183500000,
+      "entryTimeframe": "15m",
+      "entry": 2373.125,
+      "stopLoss": 2361.675,
+      "takeProfit": 2407.4749999999995,
+      "risk": 11.449999999999818,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1720427640000,
+    "realizedR": 0.21965065502186615
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1720619100000,
+      "entryTimeframe": "15m",
+      "entry": 2381.105,
+      "stopLoss": 2375.568,
+      "takeProfit": 2397.7159999999994,
+      "risk": 5.536999999999807,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (2387.595)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1720622400000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1720701900000,
+      "entryTimeframe": "15m",
+      "entry": 2407.848,
+      "stopLoss": 2379.865,
+      "takeProfit": 2491.7970000000005,
+      "risk": 27.983000000000175,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA",
+        "at monthly high (2387.595)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1721330160000,
+    "realizedR": 1.2052138798556034
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1721749500000,
+      "entryTimeframe": "15m",
+      "entry": 2407.1380000000004,
+      "stopLoss": 2401.455,
+      "takeProfit": 2424.1870000000017,
+      "risk": 5.6830000000004475,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1721812800000,
+    "realizedR": 0.6057540031670726
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1721827800000,
+      "entryTimeframe": "15m",
+      "entry": 2417.045,
+      "stopLoss": 2409.925,
+      "takeProfit": 2438.4049999999997,
+      "risk": 7.119999999999891,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1721837220000,
+    "realizedR": 0.592696629213528
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1722430800000,
+      "entryTimeframe": "15m",
+      "entry": 2420.6150000000002,
+      "stopLoss": 2416.725,
+      "takeProfit": 2432.285000000001,
+      "risk": 3.8900000000003274,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1722435660000,
+    "realizedR": 0.6344473007709986
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1722605400000,
+      "entryTimeframe": "15m",
+      "entry": 2466.2850000000003,
+      "stopLoss": 2455.275,
+      "takeProfit": 2499.315000000001,
+      "risk": 11.010000000000218,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1722609120000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1723217400000,
+      "entryTimeframe": "15m",
+      "entry": 2429.625,
+      "stopLoss": 2424.855,
+      "takeProfit": 2443.935,
+      "risk": 4.769999999999982,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1723226460000,
+    "realizedR": 0.0218029350105387
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1723466700000,
+      "entryTimeframe": "15m",
+      "entry": 2445.145,
+      "stopLoss": 2439.045,
+      "takeProfit": 2463.4449999999997,
+      "risk": 6.099999999999909,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at quarterly high (2449.985)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1723471980000,
+    "realizedR": 0.5031147540983616
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1723473900000,
+      "entryTimeframe": "15m",
+      "entry": 2451.904,
+      "stopLoss": 2441.485,
+      "takeProfit": 2483.1609999999996,
+      "risk": 10.418999999999869,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at quarterly high (2449.985)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1723512060000,
+    "realizedR": 0.8937997888473095
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1723553100000,
+      "entryTimeframe": "15m",
+      "entry": 2471.128,
+      "stopLoss": 2458.805,
+      "takeProfit": 2508.097000000001,
+      "risk": 12.32300000000032,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1723602660000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1723813200000,
+      "entryTimeframe": "15m",
+      "entry": 2491.8250000000003,
+      "stopLoss": 2463.035,
+      "takeProfit": 2578.1950000000015,
+      "risk": 28.79000000000042,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (2483.548)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1726233480000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1726759800000,
+      "entryTimeframe": "15m",
+      "entry": 2584.818,
+      "stopLoss": 2569.125,
+      "takeProfit": 2631.897000000001,
+      "risk": 15.693000000000211,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1727099100000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1727354700000,
+      "entryTimeframe": "15m",
+      "entry": 2673.7650000000003,
+      "stopLoss": 2666.335,
+      "takeProfit": 2696.055000000001,
+      "risk": 7.430000000000291,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1727356260000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1727366400000,
+      "entryTimeframe": "15m",
+      "entry": 2671.514,
+      "stopLoss": 2661.808,
+      "takeProfit": 2700.6320000000005,
+      "risk": 9.706000000000131,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1727422080000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1727788500000,
+      "entryTimeframe": "15m",
+      "entry": 2650.215,
+      "stopLoss": 2646.285,
+      "takeProfit": 2662.005000000001,
+      "risk": 3.930000000000291,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1727789580000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1728391500000,
+      "entryTimeframe": "15m",
+      "entry": 2646.7050000000004,
+      "stopLoss": 2627.925,
+      "takeProfit": 2703.045000000001,
+      "risk": 18.7800000000002,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1728397620000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1728651600000,
+      "entryTimeframe": "15m",
+      "entry": 2643.255,
+      "stopLoss": 2638.065,
+      "takeProfit": 2658.8250000000003,
+      "risk": 5.190000000000055,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1728661320000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1729083600000,
+      "entryTimeframe": "15m",
+      "entry": 2681.945,
+      "stopLoss": 2675.828,
+      "takeProfit": 2700.2960000000007,
+      "risk": 6.117000000000189,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (2685.405)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1729086720000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1729174500000,
+      "entryTimeframe": "15m",
+      "entry": 2690.1180000000004,
+      "stopLoss": 2672.414,
+      "takeProfit": 2743.230000000001,
+      "risk": 17.70400000000018,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (2685.405)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1729609320000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1729773900000,
+      "entryTimeframe": "15m",
+      "entry": 2741.0350000000003,
+      "stopLoss": 2734.525,
+      "takeProfit": 2760.565000000001,
+      "risk": 6.510000000000218,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1729777800000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1730205900000,
+      "entryTimeframe": "15m",
+      "entry": 2752.2650000000003,
+      "stopLoss": 2745.945,
+      "takeProfit": 2771.225000000001,
+      "risk": 6.320000000000164,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1730211900000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1733328900000,
+      "entryTimeframe": "15m",
+      "entry": 2654.2450000000003,
+      "stopLoss": 2648.074,
+      "takeProfit": 2672.758000000001,
+      "risk": 6.1710000000002765,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly 50% (2649.3559999999998)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1733330820000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1733841900000,
+      "entryTimeframe": "15m",
+      "entry": 2689.4950000000003,
+      "stopLoss": 2671.705,
+      "takeProfit": 2742.8650000000016,
+      "risk": 17.79000000000042,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at quarterly high (2685.405)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1733967000000,
+    "realizedR": 0.5578976953343779
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1736349300000,
+      "entryTimeframe": "15m",
+      "entry": 2664.045,
+      "stopLoss": 2649.505,
+      "takeProfit": 2707.665,
+      "risk": 14.539999999999964,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at quarterly 50% (2663.3345)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1736358000000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1736517600000,
+      "entryTimeframe": "15m",
+      "entry": 2682.5480000000002,
+      "stopLoss": 2674.078,
+      "takeProfit": 2707.958000000001,
+      "risk": 8.470000000000255,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1736535180000,
+    "realizedR": 0.28996458087357113
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1736949600000,
+      "entryTimeframe": "15m",
+      "entry": 2693.8650000000002,
+      "stopLoss": 2681.525,
+      "takeProfit": 2730.8850000000007,
+      "risk": 12.340000000000146,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1736951700000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1737382500000,
+      "entryTimeframe": "15m",
+      "entry": 2710.545,
+      "stopLoss": 2700.998,
+      "takeProfit": 2739.186,
+      "risk": 9.547000000000025,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1737450420000,
+    "realizedR": 0.8232429035298575
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1737468000000,
+      "entryTimeframe": "15m",
+      "entry": 2726.405,
+      "stopLoss": 2715.845,
+      "takeProfit": 2758.0850000000014,
+      "risk": 10.5600000000004,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (2726.105)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1737525240000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1738244700000,
+      "entryTimeframe": "15m",
+      "entry": 2783.7850000000003,
+      "stopLoss": 2775.525,
+      "takeProfit": 2808.565000000001,
+      "risk": 8.260000000000218,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at quarterly high (2790.005)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1738334040000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1738591200000,
+      "entryTimeframe": "15m",
+      "entry": 2811.175,
+      "stopLoss": 2792.265,
+      "takeProfit": 2867.905000000001,
+      "risk": 18.91000000000031,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (2816.935)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1738744920000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1738773900000,
+      "entryTimeframe": "15m",
+      "entry": 2871.045,
+      "stopLoss": 2857.815,
+      "takeProfit": 2910.735,
+      "risk": 13.230000000000018,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1738827900000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1741355100000,
+      "entryTimeframe": "15m",
+      "entry": 2923.025,
+      "stopLoss": 2915.945,
+      "takeProfit": 2944.265,
+      "risk": 7.079999999999927,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1741355640000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1741785300000,
+      "entryTimeframe": "15m",
+      "entry": 2916.848,
+      "stopLoss": 2911.435,
+      "takeProfit": 2933.087,
+      "risk": 5.413000000000011,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1741785480000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1741872600000,
+      "entryTimeframe": "15m",
+      "entry": 2945.085,
+      "stopLoss": 2941.475,
+      "takeProfit": 2955.9150000000004,
+      "risk": 3.6100000000001273,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1741876560000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1742221800000,
+      "entryTimeframe": "15m",
+      "entry": 2998.0150000000003,
+      "stopLoss": 2984.035,
+      "takeProfit": 3039.9550000000017,
+      "risk": 13.980000000000473,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1742362500000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1742908500000,
+      "entryTimeframe": "15m",
+      "entry": 3024.4750000000004,
+      "stopLoss": 3013.438,
+      "takeProfit": 3057.586000000001,
+      "risk": 11.037000000000262,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1742965680000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1742994900000,
+      "entryTimeframe": "15m",
+      "entry": 3025.665,
+      "stopLoss": 3016.355,
+      "takeProfit": 3053.595,
+      "risk": 9.309999999999945,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1742997360000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1743084900000,
+      "entryTimeframe": "15m",
+      "entry": 3047.4750000000004,
+      "stopLoss": 3032.795,
+      "takeProfit": 3091.5150000000012,
+      "risk": 14.680000000000291,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1743372120000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1743607800000,
+      "entryTimeframe": "15m",
+      "entry": 3124.7250000000004,
+      "stopLoss": 3115.925,
+      "takeProfit": 3151.125000000001,
+      "risk": 8.800000000000182,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at monthly high (3127.825)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1743624780000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1744382700000,
+      "entryTimeframe": "15m",
+      "entry": 3230.505,
+      "stopLoss": 3218.805,
+      "takeProfit": 3265.605000000001,
+      "risk": 11.700000000000273,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1744581600000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1744810200000,
+      "entryTimeframe": "15m",
+      "entry": 3305.025,
+      "stopLoss": 3301.735,
+      "takeProfit": 3314.895,
+      "risk": 3.2899999999999636,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1744810620000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1744812000000,
+      "entryTimeframe": "15m",
+      "entry": 3311.635,
+      "stopLoss": 3301.735,
+      "takeProfit": 3341.3350000000005,
+      "risk": 9.900000000000091,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1744830480000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1745248500000,
+      "entryTimeframe": "15m",
+      "entry": 3411.945,
+      "stopLoss": 3404.295,
+      "takeProfit": 3434.8950000000004,
+      "risk": 7.650000000000091,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1745252340000,
+    "realizedR": 0.33529411764706196
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1745853300000,
+      "entryTimeframe": "15m",
+      "entry": 3329.905,
+      "stopLoss": 3286.235,
+      "takeProfit": 3460.9150000000004,
+      "risk": 43.67000000000007,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1746000840000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1746535500000,
+      "entryTimeframe": "15m",
+      "entry": 3389.7850000000003,
+      "stopLoss": 3375.815,
+      "takeProfit": 3431.695000000001,
+      "risk": 13.970000000000255,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1746564840000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1748007900000,
+      "entryTimeframe": "15m",
+      "entry": 3345.348,
+      "stopLoss": 3323.625,
+      "takeProfit": 3410.517,
+      "risk": 21.722999999999956,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1748251560000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1749647700000,
+      "entryTimeframe": "15m",
+      "entry": 3341.645,
+      "stopLoss": 3326.335,
+      "takeProfit": 3387.575,
+      "risk": 15.309999999999945,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1749661680000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1749820500000,
+      "entryTimeframe": "15m",
+      "entry": 3440.898,
+      "stopLoss": 3410.895,
+      "takeProfit": 3530.9070000000006,
+      "risk": 30.003000000000156,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (3437.655)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1750057980000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1752846300000,
+      "entryTimeframe": "15m",
+      "entry": 3355.4550000000004,
+      "stopLoss": 3347.125,
+      "takeProfit": 3380.4450000000015,
+      "risk": 8.330000000000382,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at monthly 50% (3348.005)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1753049280000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1754312400000,
+      "entryTimeframe": "15m",
+      "entry": 3367.915,
+      "stopLoss": 3352.155,
+      "takeProfit": 3415.1949999999993,
+      "risk": 15.759999999999764,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1754391600000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1754576100000,
+      "entryTimeframe": "15m",
+      "entry": 3390.348,
+      "stopLoss": 3374.255,
+      "takeProfit": 3438.6269999999995,
+      "risk": 16.092999999999847,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1754676000000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1756212300000,
+      "entryTimeframe": "15m",
+      "entry": 3378.3450000000003,
+      "stopLoss": 3366.545,
+      "takeProfit": 3413.745000000001,
+      "risk": 11.800000000000182,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1756397580000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1756473300000,
+      "entryTimeframe": "15m",
+      "entry": 3418.855,
+      "stopLoss": 3406.025,
+      "takeProfit": 3457.345,
+      "risk": 12.829999999999927,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1756691940000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1756732500000,
+      "entryTimeframe": "15m",
+      "entry": 3477.5950000000003,
+      "stopLoss": 3466.485,
+      "takeProfit": 3510.9250000000006,
+      "risk": 11.110000000000127,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1756777740000,
+    "realizedR": 1.2572457245724291
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1757512800000,
+      "entryTimeframe": "15m",
+      "entry": 3651.415,
+      "stopLoss": 3639.508,
+      "takeProfit": 3687.1360000000004,
+      "risk": 11.907000000000153,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1757517840000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1757940300000,
+      "entryTimeframe": "15m",
+      "entry": 3644.8250000000003,
+      "stopLoss": 3638.248,
+      "takeProfit": 3664.556000000001,
+      "risk": 6.5770000000002256,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1757944800000,
+    "realizedR": 1.434468602706259
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1758634200000,
+      "entryTimeframe": "15m",
+      "entry": 3783.578,
+      "stopLoss": 3776.735,
+      "takeProfit": 3804.1069999999995,
+      "risk": 6.842999999999847,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1758635400000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1759153500000,
+      "entryTimeframe": "15m",
+      "entry": 3826.335,
+      "stopLoss": 3808.585,
+      "takeProfit": 3879.585,
+      "risk": 17.75,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1759218540000,
+    "realizedR": 1.0447887323943703
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1759410000000,
+      "entryTimeframe": "15m",
+      "entry": 3884.545,
+      "stopLoss": 3879.378,
+      "takeProfit": 3900.046,
+      "risk": 5.166999999999916,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (3871.505)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1759412100000,
+    "realizedR": 0.9023611379911823
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1759928400000,
+      "entryTimeframe": "15m",
+      "entry": 4040.175,
+      "stopLoss": 4031.345,
+      "takeProfit": 4066.6650000000013,
+      "risk": 8.830000000000382,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1759930440000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1759933800000,
+      "entryTimeframe": "15m",
+      "entry": 4044.715,
+      "stopLoss": 4025.555,
+      "takeProfit": 4102.1950000000015,
+      "risk": 19.16000000000031,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1759961340000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1760013900000,
+      "entryTimeframe": "15m",
+      "entry": 4045.598,
+      "stopLoss": 4032.855,
+      "takeProfit": 4083.8269999999998,
+      "risk": 12.742999999999938,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1760017440000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1760537700000,
+      "entryTimeframe": "15m",
+      "entry": 4208.245,
+      "stopLoss": 4175.279,
+      "takeProfit": 4307.142999999998,
+      "risk": 32.96599999999944,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1760644440000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1761321600000,
+      "entryTimeframe": "15m",
+      "entry": 4130.495,
+      "stopLoss": 4111.535,
+      "takeProfit": 4187.375,
+      "risk": 18.960000000000036,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1761327840000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1762956900000,
+      "entryTimeframe": "15m",
+      "entry": 4135.255,
+      "stopLoss": 4121.995,
+      "takeProfit": 4175.035000000001,
+      "risk": 13.260000000000218,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1762961580000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1763560800000,
+      "entryTimeframe": "15m",
+      "entry": 4110.795,
+      "stopLoss": 4100.115,
+      "takeProfit": 4142.835000000001,
+      "risk": 10.680000000000291,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at monthly 50% (4100.1965)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1763566140000,
+    "realizedR": 0.5486891385767334
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1763646300000,
+      "entryTimeframe": "15m",
+      "entry": 4080.415,
+      "stopLoss": 4050.255,
+      "takeProfit": 4170.8949999999995,
+      "risk": 30.159999999999854,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open",
+        "at monthly 50% (4100.1965)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1763657880000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1763995500000,
+      "entryTimeframe": "15m",
+      "entry": 4073.6150000000002,
+      "stopLoss": 4072.835,
+      "takeProfit": 4075.955000000001,
+      "risk": 0.7800000000002001,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1763995500000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1763997300000,
+      "entryTimeframe": "15m",
+      "entry": 4092.175,
+      "stopLoss": 4067.575,
+      "takeProfit": 4165.975000000001,
+      "risk": 24.600000000000364,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly 50% (4100.1965)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1764060660000,
+    "realizedR": 1.0776422764227203
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1764943200000,
+      "entryTimeframe": "15m",
+      "entry": 4234.665,
+      "stopLoss": 4220.785,
+      "takeProfit": 4276.305,
+      "risk": 13.88000000000011,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly high (4244.925)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1764950220000,
+    "realizedR": 0.26080691642650305
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1765464300000,
+      "entryTimeframe": "15m",
+      "entry": 4243.995,
+      "stopLoss": 4204.535,
+      "takeProfit": 4362.375,
+      "risk": 39.460000000000036,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly high (4244.925)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1765554900000,
+    "realizedR": 1.2706538266599159
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1765987200000,
+      "entryTimeframe": "15m",
+      "entry": 4330.415,
+      "stopLoss": 4322.225,
+      "takeProfit": 4354.984999999999,
+      "risk": 8.1899999999996,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1765988700000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1766074500000,
+      "entryTimeframe": "15m",
+      "entry": 4362.2390000000005,
+      "stopLoss": 4307.785,
+      "takeProfit": 4525.601000000002,
+      "risk": 54.45400000000063,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1766539500000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1767707100000,
+      "entryTimeframe": "15m",
+      "entry": 4461.135,
+      "stopLoss": 4457.978,
+      "takeProfit": 4470.606000000001,
+      "risk": 3.157000000000153,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1767707280000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1767714300000,
+      "entryTimeframe": "15m",
+      "entry": 4475.558,
+      "stopLoss": 4453.035,
+      "takeProfit": 4543.127,
+      "risk": 22.52300000000014,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1767764040000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1767967200000,
+      "entryTimeframe": "15m",
+      "entry": 4482.478,
+      "stopLoss": 4460.205,
+      "takeProfit": 4549.2970000000005,
+      "risk": 22.27300000000014,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1767981360000,
+    "realizedR": 0.045368832218354256
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1768322700000,
+      "entryTimeframe": "15m",
+      "entry": 4608.778,
+      "stopLoss": 4599.915,
+      "takeProfit": 4635.367000000001,
+      "risk": 8.863000000000284,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1768326660000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1768398300000,
+      "entryTimeframe": "15m",
+      "entry": 4636.965,
+      "stopLoss": 4625.295,
+      "takeProfit": 4671.975,
+      "risk": 11.670000000000073,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1768401300000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1768833900000,
+      "entryTimeframe": "15m",
+      "entry": 4667.3150000000005,
+      "stopLoss": 4660.698,
+      "takeProfit": 4687.166000000001,
+      "risk": 6.617000000000189,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1768850400000,
+    "realizedR": 0.4329001057879233
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1768924800000,
+      "entryTimeframe": "15m",
+      "entry": 4737.515,
+      "stopLoss": 4721.528,
+      "takeProfit": 4785.476000000001,
+      "risk": 15.98700000000008,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1768956120000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1769093100000,
+      "entryTimeframe": "15m",
+      "entry": 4845.7480000000005,
+      "stopLoss": 4810.035,
+      "takeProfit": 4952.887000000002,
+      "risk": 35.71300000000065,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at daily open"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1769123280000,
+    "realizedR": 3
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1769439600000,
+      "entryTimeframe": "15m",
+      "entry": 5096.198,
+      "stopLoss": 5053.875,
+      "takeProfit": 5223.167000000001,
+      "risk": 42.32300000000032,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1769454120000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1769614200000,
+      "entryTimeframe": "15m",
+      "entry": 5269.345,
+      "stopLoss": 5248.035,
+      "takeProfit": 5333.2750000000015,
+      "risk": 21.3100000000004,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1769625000000,
+    "realizedR": 1.147114030971297
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1769694300000,
+      "entryTimeframe": "15m",
+      "entry": 5525.885,
+      "stopLoss": 5470.045,
+      "takeProfit": 5693.405000000001,
+      "risk": 55.840000000000146,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1769698860000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1770732900000,
+      "entryTimeframe": "15m",
+      "entry": 5055.968,
+      "stopLoss": 5018.915,
+      "takeProfit": 5167.1269999999995,
+      "risk": 37.052999999999884,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at daily open"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1770737820000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1773147600000,
+      "entryTimeframe": "15m",
+      "entry": 5187.135,
+      "stopLoss": 5161.725,
+      "takeProfit": 5263.365,
+      "risk": 25.409999999999854,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at 15m 20 SMA"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1773151620000,
+    "realizedR": 0.12573789846516045
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1775739600000,
+      "entryTimeframe": "15m",
+      "entry": 4745.965,
+      "stopLoss": 4734.195,
+      "takeProfit": 4781.2750000000015,
+      "risk": 11.770000000000437,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at monthly 50% (4758.575)"
+      ]
+    },
+    "outcome": "win",
+    "exitTime": 1775745120000,
+    "realizedR": 1.138062871707649
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1775746800000,
+      "entryTimeframe": "15m",
+      "entry": 4768.845,
+      "stopLoss": 4734.195,
+      "takeProfit": 4872.795000000002,
+      "risk": 34.650000000000546,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "bull-momentum",
+        "at monthly 50% (4758.575)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1775810820000,
+    "realizedR": -1
+  },
+  {
+    "signal": {
+      "pair": "XAUUSD",
+      "direction": "buy",
+      "time": 1776692700000,
+      "entryTimeframe": "15m",
+      "entry": 4822.555,
+      "stopLoss": 4798.295,
+      "takeProfit": 4895.335000000001,
+      "risk": 24.26000000000022,
+      "reasons": [
+        "bullish M/W/D bias",
+        "3h & 45m aligned with healthy candles",
+        "rejection-down",
+        "at quarterly 50% (4847.54)"
+      ]
+    },
+    "outcome": "loss",
+    "exitTime": 1776696660000,
+    "realizedR": -1
+  }
+]
