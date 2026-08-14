@@ -24,3 +24,24 @@ npm run backtest     # run the strategy over all downloaded pairs
 npm run report       # rebuild the HTML dashboard
 npm test             # 22 unit tests
 ```
+
+## Data
+
+Two kinds of data live here, handled differently.
+
+**Backtest results** (`data/backtest-*.json`, `data/exit-variants-*.json`)
+are committed — they're small, and they're what `npm run report` reads.
+You can inspect the numbers without running anything.
+
+**Raw 1m candle history** (`data/*-1m.json`) is *not* in git — roughly 90MB
+per pair, and JSON doesn't delta-compress, so committing it would bloat the
+clone permanently. It ships as assets on the
+[`data-v1` release](https://github.com/emmanuelrukevwe123-lgtm/noemo/releases/tag/data-v1)
+instead. To run a backtest yourself, grab it:
+
+```bash
+gh release download data-v1 --repo emmanuelrukevwe123-lgtm/noemo --dir data
+```
+
+Or re-download from the source with `npm run fetch-data`, which pulls the
+same candles from Dukascopy's free archive (slow, but resumes from cache).
