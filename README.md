@@ -74,3 +74,7 @@ npm run lint
 npm run test
 npm run build
 ```
+
+## License
+
+[MIT](./LICENSE) © 2026 Emmanuel Nwabuokei
