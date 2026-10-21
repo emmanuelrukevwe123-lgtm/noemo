@@ -130,8 +130,8 @@ scheduled job if the strategy works on candle closes, e.g. every 15m/1h):
 4. Payment integration + subscription gating, then open it to subscribers.
 
 **Progress:** the strategy has been defined and codified — see
-[`../Argus - AI Trading Assitance/docs/STRATEGY_SPEC.md`](../Argus%20-%20AI%20Trading%20Assitance/docs/STRATEGY_SPEC.md)
-and the engine + backtester in `Argus - AI Trading Assitance/src/`.
+[`../argus/docs/STRATEGY_SPEC.md`](../argus/docs/STRATEGY_SPEC.md)
+and the engine + backtester in `argus/src/`.
 Historical data source: Dukascopy (free 1m history).
 
 **Remaining open decision:**

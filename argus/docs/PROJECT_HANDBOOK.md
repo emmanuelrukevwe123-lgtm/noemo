@@ -2,7 +2,7 @@
 
 **Audience:** AI agents (Codex, Claude, etc.) and developers joining this
 project cold. Everything needed to understand, run, and extend the system is
-in this document. Paths are relative to `Argus - AI Trading Assitance/`
+in this document. Paths are relative to `argus/`
 unless stated otherwise. Last updated: 2026-07-08 (v1.2 exit model adopted).
 
 ---
@@ -52,7 +52,7 @@ advice" framing, and the owner should confirm local rules before charging.
 Noemo/                                  # repo root: the Next.js journal app
 ├── app/, components/, lib/, supabase/  # Noemo app (untouched by Argus work)
 ├── docs/                               # Noemo docs + TESTING_AND_TRADING_BOT.md (history)
-└── Argus - AI Trading Assitance/       # ← THIS PACKAGE (self-contained)
+└── argus/                              # ← THIS PACKAGE (self-contained)
     ├── package.json                    # own deps; no coupling to the app
     ├── tsconfig.json / vitest.config.ts
     ├── docs/
@@ -83,7 +83,7 @@ Noemo/                                  # repo root: the Next.js journal app
     └── tests/              # 31 vitest tests (incl. exit-model fill logic)
 ```
 
-Commands (run inside `Argus - AI Trading Assitance/`):
+Commands (run inside `argus/`):
 
 | Command | What it does |
 |---|---|

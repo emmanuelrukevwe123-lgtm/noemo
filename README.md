@@ -17,6 +17,17 @@ Full documentation lives in [`docs/`](./docs/README.md):
 - [Theming](./docs/THEMING.md)
 - [Contributing & backlog](./docs/CONTRIBUTING.md)
 
+## Repository layout
+
+| Path | What it is |
+|---|---|
+| `app/`, `components/`, `lib/`, `middleware.ts` | The Noemo Next.js app |
+| `supabase/` | Database migration, including Row Level Security policies |
+| `tests/` | Vitest suite for the app |
+| `docs/` | App documentation |
+| [`argus/`](./argus/README.md) | Argus, a separate signals-only trading engine and backtester (own `package.json` and tests) |
+| `design/` | Early HTML prototypes of the landing page and journal UI |
+
 ## Local Setup
 
 ```bash

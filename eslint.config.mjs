@@ -16,9 +16,8 @@ const eslintConfig = [
       ".next/**",
       "node_modules/**",
       "coverage/**",
-      "Landing page design/**",
-      "Argus - AI Trading Assitance/**",
-      "Noemo forex trade journal/**",
+      "design/**",
+      "argus/**",
       "next-env.d.ts"
     ]
   }
